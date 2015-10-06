@@ -2,6 +2,7 @@
 using UnityEngine.EventSystems;
 using System.Collections;
 using System.Collections.Generic;
+using MadLevelManager;
 
 [System.Serializable]
 public class BaseUnit
@@ -36,38 +37,50 @@ public class GeneratingPuzzle : MonoBehaviour {
     [HideInInspector]
     public Transform _unitsHolder;                             // Unit Clone Container in Hierachy
     public  List<GameObject> _unitPrefabsContainer;            // List contain Units Prefab
+    public TextAsset _levelsInfo;                              // Text file store all levels infomation
 
     public GameObject _portalGatePrefab;                       // Puzzle border prefab
     public GameObject _portalCornerPrefab;                     // Puzzle border corner prefab
+    [HideInInspector]
     public Transform _borderHolder;                            // Puzzle border Container in Hierachy
 
     private BaseUnit[,] _valueARR;                             // Array of number used for generating puzzle
     public Vector3[,] _unitPosARR;                             // Array of Units position
     public  GameObject[,] _unitARR;                            // Array of unit gameobject
 
+    [HideInInspector]
     public int _unitTypesCount;                                // Number of unit types in puzzle
+    [HideInInspector]
     public int _rows;                                          // Number of unit rows in puzzle
+    [HideInInspector]
     public int _columns;                                       // Number of unit collumns in puzzle
 
+    [HideInInspector]
     public int _turns;                                         // Number of player's turns
+    [HideInInspector]
+    public int _1starPoint;                                    // Score needed to get 1 Star
+    [HideInInspector]
+    public int _2starPoint;                                    // Score needed to get 2 Star
+    [HideInInspector]
+    public int _3starPoint;                                    // Score needed to get 3 Star     
 
-    public int _unitFallingSpd;                                 // Unit falling down speed
+    public int _unitFallingSpd;                                // Unit falling down speed
 
     //[HideInInspector]
-    //public float _unitWidth = 0.8f;                            // The width of an unit
+    //public float _unitWidth = 0.8f;                          // The width of an unit
 
     //[HideInInspector]
-    //public float _unitHeight = 0.8f;                          // The height of an unit
-    //private float _XOffset = 0.6f;                            // Distance between the first collumn and left side of the screen
-    //private float _YOffset = 1.7f;                            // Distance between the first row and bottom side of the screen
+    //public float _unitHeight = 0.8f;                         // The height of an unit
+    //private float _XOffset = 0.6f;                           // Distance between the first collumn and left side of the screen
+    //private float _YOffset = 1.7f;                           // Distance between the first row and bottom side of the screen
 
     [HideInInspector]
-    public float _unitWidth;                                    // The width of an unit
+    public float _unitWidth;                                   // The width of an unit
 
     [HideInInspector]
-    public float _unitHeight;                                   // The height of an unit
-    private float _XOffset;                              // Distance between the first collumn and left side of the screen
-    private float _YOffset;                              // Distance between the first row and bottom side of the screen
+    public float _unitHeight;                                  // The height of an unit
+    private float _XOffset;                                    // Distance between the first collumn and left side of the screen
+    private float _YOffset;                                    // Distance between the first row and bottom side of the screen
 
 
     //==============================================
@@ -78,6 +91,19 @@ public class GeneratingPuzzle : MonoBehaviour {
     {
         Instance = this;
         Application.targetFrameRate = 60;
+
+        string levelsInfoString = _levelsInfo.text;
+        JSONObject levelsInfoJSON = new JSONObject(levelsInfoString);
+        JSONObject puzzleInfoJSON = levelsInfoJSON.GetField(MadLevel.arguments);
+
+        _rows = (int) puzzleInfoJSON.GetField("rows").f;
+        _columns = (int) puzzleInfoJSON.GetField("columns").f;
+        _unitTypesCount = (int) puzzleInfoJSON.GetField("unit types count").f;
+        _turns = (int)puzzleInfoJSON.GetField("turns").f;
+        _1starPoint = (int)puzzleInfoJSON.GetField("1 star point").f;
+        _2starPoint = (int)puzzleInfoJSON.GetField("2 star point").f;
+        _3starPoint = (int)puzzleInfoJSON.GetField("3 star point").f;
+
     }
 
 	void Start () {
