@@ -14,12 +14,24 @@ MonoBehaviour:
   creationDate: 1443437895
   _active: 1
   levels:
+  - _sceneObject: {fileID: 102900000, guid: add3815dbbdb1a44daec98e009d9c576, type: 3}
+    _scenePath: Assets/_Scenes/_Main Menu.unity
+    _sceneName: _Main Menu
+    scene: 
+    parent: {fileID: 11400000}
+    order: 0
+    name: Main Menu
+    type: 0
+    arguments: 
+    groupId: 0
+    extensionGUID: 
+    lockedByDefault: 0
   - _sceneObject: {fileID: 102900000, guid: 6ed06deed1e03b04a8bcb40f6b815438, type: 3}
     _scenePath: Assets/_Scenes/_Level Select Scene.unity
     _sceneName: _Level Select Scene
     scene: 
     parent: {fileID: 11400000}
-    order: 0
+    order: 10
     name: Level Select
     type: 0
     arguments: 
@@ -31,7 +43,7 @@ MonoBehaviour:
     _sceneName: _Main Game
     scene: 
     parent: {fileID: 11400000}
-    order: 10
+    order: 20
     name: Level 1
     type: 1
     arguments: Level 1
@@ -43,7 +55,7 @@ MonoBehaviour:
     _sceneName: _Main Game
     scene: 
     parent: {fileID: 11400000}
-    order: 20
+    order: 30
     name: Level 2
     type: 1
     arguments: Level 2
@@ -55,7 +67,7 @@ MonoBehaviour:
     _sceneName: _Main Game
     scene: 
     parent: {fileID: 11400000}
-    order: 30
+    order: 40
     name: Level 3
     type: 1
     arguments: Level 3
@@ -67,7 +79,7 @@ MonoBehaviour:
     _sceneName: _Main Game
     scene: 
     parent: {fileID: 11400000}
-    order: 40
+    order: 50
     name: Level 4
     type: 1
     arguments: Level 4
@@ -79,7 +91,7 @@ MonoBehaviour:
     _sceneName: _Main Game
     scene: 
     parent: {fileID: 11400000}
-    order: 50
+    order: 60
     name: Level 5
     type: 1
     arguments: Level 5
@@ -91,7 +103,7 @@ MonoBehaviour:
     _sceneName: _Main Game
     scene: 
     parent: {fileID: 11400000}
-    order: 60
+    order: 70
     name: Level 6
     type: 1
     arguments: Level 6

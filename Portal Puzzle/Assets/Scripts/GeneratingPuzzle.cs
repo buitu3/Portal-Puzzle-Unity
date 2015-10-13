@@ -119,7 +119,7 @@ public class GeneratingPuzzle : MonoBehaviour {
         float cameraWidth = cameraHeight * Camera.main.aspect;
         _YOffset = (cameraHeight - _unitHeight * _rows) / 2;
         _XOffset = (cameraWidth - _unitWidth * _columns) / 2;
-
+        
         // Generating value matrix
         _valueARR = generateValueMatrix();
 
