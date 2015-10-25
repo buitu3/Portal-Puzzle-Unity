@@ -136,11 +136,11 @@ public class DestroyChainedUnit : MonoBehaviour {
         }
 
         #region Scan and Mark chained Units
-        //scanBlockNineChained();
-        //scanCrossNineChained();
+        scanBlockNineChained();
+        scanCrossNineChained();
         //scanUSevenChained();
         scanLFiveChained();
-        //scanCrossFiveChained();
+        scanCrossFiveChained();
         
         /*
         for (int YIndex = 0; YIndex < puzzleGen._rows; YIndex++)
