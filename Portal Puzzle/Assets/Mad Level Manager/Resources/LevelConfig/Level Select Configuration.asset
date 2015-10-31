@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca0aa9835c2f8f4a9b2b5ff51784391, type: 3}
+  m_Name: Level Select Configuration
+  m_EditorClassIdentifier: 
+  creationDate: 1443437895
+  _active: 1
+  levels:
+  - _sceneObject: {fileID: 102900000, guid: add3815dbbdb1a44daec98e009d9c576, type: 3}
+    _scenePath: Assets/_Scenes/_Main Menu.unity
+    _sceneName: _Main Menu
+    scene: 
+    parent: {fileID: 11400000}
+    order: 0
+    name: Main Menu
+    type: 0
+    arguments: 
+    groupId: 0
+    extensionGUID: 
+    lockedByDefault: 0
+  - _sceneObject: {fileID: 102900000, guid: 6ed06deed1e03b04a8bcb40f6b815438, type: 3}
+    _scenePath: Assets/_Scenes/_Level Select Scene.unity
+    _sceneName: _Level Select Scene
+    scene: 
+    parent: {fileID: 11400000}
+    order: 10
+    name: Level Select
+    type: 0
+    arguments: 
+    groupId: 0
+    extensionGUID: 
+    lockedByDefault: 0
+  - _sceneObject: {fileID: 102900000, guid: f5bd0e038d78cb2489a16db06571f3ec, type: 3}
+    _scenePath: Assets/_Scenes/_Main Game.unity
+    _sceneName: _Main Game
+    scene: 
+    parent: {fileID: 11400000}
+    order: 20
+    name: Level 1
+    type: 1
+    arguments: Level 1
+    groupId: 0
+    extensionGUID: 
+    lockedByDefault: 0
+  - _sceneObject: {fileID: 102900000, guid: f5bd0e038d78cb2489a16db06571f3ec, type: 3}
+    _scenePath: Assets/_Scenes/_Main Game.unity
+    _sceneName: _Main Game
+    scene: 
+    parent: {fileID: 11400000}
+    order: 30
+    name: Level 2
+    type: 1
+    arguments: Level 2
+    groupId: 0
+    extensionGUID: 
+    lockedByDefault: 0
+  - _sceneObject: {fileID: 102900000, guid: f5bd0e038d78cb2489a16db06571f3ec, type: 3}
+    _scenePath: Assets/_Scenes/_Main Game.unity
+    _sceneName: _Main Game
+    scene: 
+    parent: {fileID: 11400000}
+    order: 40
+    name: Level 3
+    type: 1
+    arguments: Level 3
+    groupId: 0
+    extensionGUID: 
+    lockedByDefault: 1
+  - _sceneObject: {fileID: 102900000, guid: f5bd0e038d78cb2489a16db06571f3ec, type: 3}
+    _scenePath: Assets/_Scenes/_Main Game.unity
+    _sceneName: _Main Game
+    scene: 
+    parent: {fileID: 11400000}
+    order: 50
+    name: Level 4
+    type: 1
+    arguments: Level 4
+    groupId: 0
+    extensionGUID: 
+    lockedByDefault: 1
+  - _sceneObject: {fileID: 102900000, guid: f5bd0e038d78cb2489a16db06571f3ec, type: 3}
+    _scenePath: Assets/_Scenes/_Main Game.unity
+    _sceneName: _Main Game
+    scene: 
+    parent: {fileID: 11400000}
+    order: 60
+    name: Level 5
+    type: 1
+    arguments: Level 5
+    groupId: 0
+    extensionGUID: 
+    lockedByDefault: 1
+  - _sceneObject: {fileID: 102900000, guid: f5bd0e038d78cb2489a16db06571f3ec, type: 3}
+    _scenePath: Assets/_Scenes/_Main Game.unity
+    _sceneName: _Main Game
+    scene: 
+    parent: {fileID: 11400000}
+    order: 70
+    name: Level 6
+    type: 1
+    arguments: Level 6
+    groupId: 0
+    extensionGUID: 
+    lockedByDefault: 1
+  groups: []
+  extensions: []
+  version: 1
+  flag: 0
