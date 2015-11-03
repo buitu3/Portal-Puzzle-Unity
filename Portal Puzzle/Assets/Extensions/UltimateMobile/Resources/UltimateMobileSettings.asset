@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870ac8f5cd2144b87b54e16e1ef3e830, type: 3}
+  m_Name: UltimateMobileSettings
+  m_EditorClassIdentifier: 
+  IOSAdEdngine: 0
+  WP8AdEdngine: 0
+  IsInAppSettingsOpen: 0
+  IsInAppSettingsPlatfromsOpen: 1
+  IsInAppSettingsProductsOpen: 1
+  IsCameraAndGallerySettingsOpen: 1
+  IsCameraAndGalleryAndroidSettingsOpen: 0
+  IsCameraAndGalleryIOSSettingsOpen: 0
+  IsLPSettingsOpen: 1
+  IsLP_Android_SettingsOpen: 0
+  IsLP_IOS_SettingsOpen: 0
+  ThirdPartyParams_SettingsOpen: 0
+  Leaderboards: []
+  Achievements: []
+  IsaAdvertisementSettingsOpen: 1
+  AdIOSSettings: 0
+  AdAndroidSettings: 0
+  AdWp8Settings: 0
+  IsGameServiceOpen: 1
+  IsLeaderBoardsOpen: 0
+  IsAchievementsOpen: 0
+  IsMoreActionsOpen: 1
+  IsMoreSettingsOpen: 1
+  InAppProducts: []

@@ -6,8 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Scenes/_Main Menu.unity
+    path: Assets/Portal Puzzle Assets/_Scenes/_Main Menu.unity
   - enabled: 1
-    path: Assets/_Scenes/_Level Select Scene.unity
+    path: Assets/Portal Puzzle Assets/_Scenes/_UnitImage Scene.unity
   - enabled: 1
-    path: Assets/_Scenes/_Main Game.unity
+    path: Assets/Portal Puzzle Assets/_Scenes/_Level Select Scene.unity
+  - enabled: 1
+    path: Assets/Portal Puzzle Assets/_Scenes/_Main Game.unity
