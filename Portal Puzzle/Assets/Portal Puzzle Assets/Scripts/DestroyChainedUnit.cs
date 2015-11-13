@@ -136,81 +136,54 @@ public class DestroyChainedUnit : MonoBehaviour {
         }
 
         #region Scan and Mark chained Units
-        scanBlockNineChained();
-        scanCrossNineChained();
-        //scanUSevenChained();
-        scanLFiveChained();
-        scanCrossFiveChained();
-        
-        /*
-        for (int YIndex = 0; YIndex < puzzleGen._rows; YIndex++)
-        {
-            for (int XIndex = 0; XIndex < puzzleGen._columns; XIndex++)
-            {
-                if (isBlockNineChained(XIndex, YIndex))
-                {
-                    scanUnitARR[XIndex - 1, YIndex - 1]._isChained = true;
-                    scanUnitARR[XIndex, YIndex - 1]._isChained = true;
-                    scanUnitARR[XIndex + 1, YIndex - 1]._isChained = true;
-                    scanUnitARR[XIndex - 1, YIndex]._isChained = true;
-                    scanUnitARR[XIndex, YIndex]._isChained = true;
-                    scanUnitARR[XIndex + 1, YIndex]._isChained = true;
-                    scanUnitARR[XIndex - 1, YIndex + 1]._isChained = true;
-                    scanUnitARR[XIndex, YIndex + 1]._isChained = true;
-                    scanUnitARR[XIndex + 1, YIndex + 1]._isChained = true;
+        //scanBlockNineChained();
+        //scanCrossNineChained();
+        scanUSevenChained();
+        //scanLFiveChained();
+        //scanCrossFiveChained();
+        //scanLineFiveChained();
 
-                    print("Block9 chained at" + XIndex + " : " + YIndex + "value :" + scanUnitARR[XIndex, YIndex]._value);
-                    _noChainedUnit = false;
-                    _unitCounter += 9;
-                    if (_unitTypeCheckContainer.Contains(scanUnitARR[XIndex, YIndex]._value))
-                    {
-                        _unitTypeCheckContainer.Remove(scanUnitARR[XIndex, YIndex]._value);
-                    }
-                }
-            }
-        }
-        */
-        for (int YIndex = 0; YIndex < puzzleGen._rows; YIndex++)
-        {
-            for (int XIndex = 0; XIndex < puzzleGen._columns; XIndex++)
-            {
-                if (isHorizontalTreeChained(XIndex, YIndex))
-                {
-                    scanUnitARR[XIndex - 1, YIndex]._isChained = true;
-                    scanUnitARR[XIndex, YIndex]._isChained = true;
-                    scanUnitARR[XIndex + 1, YIndex]._isChained = true;
+        //for (int YIndex = 0; YIndex < puzzleGen._rows; YIndex++)
+        //{
+        //    for (int XIndex = 0; XIndex < puzzleGen._columns; XIndex++)
+        //    {
+        //        if (isHorizontalTreeChained(XIndex, YIndex))
+        //        {
+        //            scanUnitARR[XIndex - 1, YIndex]._isChained = true;
+        //            scanUnitARR[XIndex, YIndex]._isChained = true;
+        //            scanUnitARR[XIndex + 1, YIndex]._isChained = true;
 
-                    print("Horizontal3 chained at" + XIndex + " : " + YIndex + "value :" + scanUnitARR[XIndex, YIndex]._value);
-                    _noChainedUnit = false;
-                    _unitCounter += 3;
-                    if (_unitTypeCheckContainer.Contains(scanUnitARR[XIndex, YIndex]._value))
-                    {
-                        _unitTypeCheckContainer.Remove(scanUnitARR[XIndex, YIndex]._value);
-                    }
-                }
-            }
-        }
+        //            print("Horizontal3 chained at" + XIndex + " : " + YIndex + "value :" + scanUnitARR[XIndex, YIndex]._value);
+        //            _noChainedUnit = false;
+        //            _unitCounter += 3;
+        //            if (_unitTypeCheckContainer.Contains(scanUnitARR[XIndex, YIndex]._value))
+        //            {
+        //                _unitTypeCheckContainer.Remove(scanUnitARR[XIndex, YIndex]._value);
+        //            }
+        //        }
+        //    }
+        //}
 
-        for (int YIndex = 0; YIndex < puzzleGen._rows; YIndex++)
-        {
-            for (int XIndex = 0; XIndex < puzzleGen._columns; XIndex++)
-            {
-                if (isVerticalTreeChained(XIndex, YIndex))
-                {
-                    scanUnitARR[XIndex, YIndex - 1]._isChained = true;
-                    scanUnitARR[XIndex, YIndex]._isChained = true;
-                    scanUnitARR[XIndex, YIndex + 1]._isChained = true;
+        //for (int YIndex = 0; YIndex < puzzleGen._rows; YIndex++)
+        //{
+        //    for (int XIndex = 0; XIndex < puzzleGen._columns; XIndex++)
+        //    {
+        //        if (isVerticalTreeChained(XIndex, YIndex))
+        //        {
+        //            scanUnitARR[XIndex, YIndex - 1]._isChained = true;
+        //            scanUnitARR[XIndex, YIndex]._isChained = true;
+        //            scanUnitARR[XIndex, YIndex + 1]._isChained = true;
 
-                    print("Vertical3 chained at" + XIndex + " : " + YIndex + "value :" + scanUnitARR[XIndex, YIndex]._value);
-                    _noChainedUnit = false;
-                    _unitCounter += 3;
-                    if (_unitTypeCheckContainer.Contains(scanUnitARR[XIndex, YIndex]._value))
-                    {
-                        _unitTypeCheckContainer.Remove(scanUnitARR[XIndex, YIndex]._value);
-                    }
-                }
-            }
-        }
+        //            print("Vertical3 chained at" + XIndex + " : " + YIndex + "value :" + scanUnitARR[XIndex, YIndex]._value);
+        //            _noChainedUnit = false;
+        //            _unitCounter += 3;
+        //            if (_unitTypeCheckContainer.Contains(scanUnitARR[XIndex, YIndex]._value))
+        //            {
+        //                _unitTypeCheckContainer.Remove(scanUnitARR[XIndex, YIndex]._value);
+        //            }
+        //        }
+        //    }
+        //}
         
         #endregion
 
@@ -350,33 +323,11 @@ public class DestroyChainedUnit : MonoBehaviour {
     }
 
     #region Specific chained Units types checking methods
-    /*
-    bool isBlockNineChained(int unitXIndex, int unitYIndex)
-    {
-        bool isChained = false;
-        int scanUnitValue = scanUnitARR[unitXIndex, unitYIndex]._value;
-        if (isHorizontalTreeChained(unitXIndex, unitYIndex)
-            && isVerticalTreeChained(unitXIndex, unitYIndex)
-            && !scanUnitARR[unitXIndex, unitYIndex]._isChained)
-        {
-            if (scanUnitARR[unitXIndex - 1, unitYIndex - 1]._value == scanUnitValue
-                && scanUnitARR[unitXIndex + 1, unitYIndex - 1]._value == scanUnitValue
-                && scanUnitARR[unitXIndex - 1, unitYIndex + 1]._value == scanUnitValue
-                && scanUnitARR[unitXIndex + 1, unitYIndex + 1]._value == scanUnitValue
-                && !scanUnitARR[unitXIndex - 1, unitYIndex - 1]._isChained
-                && !scanUnitARR[unitXIndex + 1, unitYIndex - 1]._isChained
-                && !scanUnitARR[unitXIndex - 1, unitYIndex + 1]._isChained
-                && !scanUnitARR[unitXIndex + 1, unitYIndex + 1]._isChained)
-            {
-                isChained = true;
-            }
-        }
-        return isChained;
-    }
-    */
+
     private void scanBlockNineChained()
     {
         int point = 9;
+        int unitCount = 9;
         for (int YIndex = 0; YIndex < puzzleGen._rows; YIndex++)
         {
             for (int XIndex = 0; XIndex < puzzleGen._columns; XIndex++)
@@ -415,7 +366,7 @@ public class DestroyChainedUnit : MonoBehaviour {
 
                         print("Block9 chained at" + XIndex + " : " + YIndex + "value :" + scanUnitARR[XIndex, YIndex]._value);
                         _noChainedUnit = false;
-                        _unitCounter += 9;
+                        _unitCounter += unitCount;
                         _turnPoint += point;
 
                         if (_unitTypeCheckContainer.Contains(scanUnitARR[XIndex, YIndex]._value))
@@ -431,6 +382,7 @@ public class DestroyChainedUnit : MonoBehaviour {
     private void scanCrossNineChained()
     {
         int point = 9;
+        int unitCount = 9;
         for (int YIndex = 0; YIndex < puzzleGen._rows; YIndex++)
         {
             for (int XIndex = 0; XIndex < puzzleGen._columns; XIndex++)
@@ -469,7 +421,7 @@ public class DestroyChainedUnit : MonoBehaviour {
 
                         print("Cross9 chained at" + XIndex + " : " + YIndex + "value :" + scanUnitARR[XIndex, YIndex]._value);
                         _noChainedUnit = false;
-                        _unitCounter += 9;
+                        _unitCounter += unitCount;
                         _turnPoint += point;
 
                         if (_unitTypeCheckContainer.Contains(scanUnitARR[XIndex, YIndex]._value))
@@ -484,7 +436,8 @@ public class DestroyChainedUnit : MonoBehaviour {
 
     private void scanUSevenChained()
     {
-        int point = 5;
+        int point = 7;
+        int unitCount = 7;
         for (int YIndex = 0; YIndex < puzzleGen._rows; YIndex++)
         {
             for (int XIndex = 0; XIndex < puzzleGen._columns; XIndex++)
@@ -518,7 +471,7 @@ public class DestroyChainedUnit : MonoBehaviour {
 
                         print("U7 chained at" + XIndex + " : " + YIndex + "value :" + scanUnitARR[XIndex, YIndex]._value);
                         _noChainedUnit = false;
-                        _unitCounter += 5;
+                        _unitCounter += unitCount;
                         _turnPoint += point;
 
                         if (_unitTypeCheckContainer.Contains(scanUnitARR[XIndex, YIndex]._value))
@@ -527,30 +480,36 @@ public class DestroyChainedUnit : MonoBehaviour {
                         }
                     }
                 }
-                /*               
-                // Check Right Down L chained
-                if (XIndex < puzzleGen._columns - 2 && YIndex > 1
+                               
+                // Check Up U chained
+                if (XIndex > 0 && XIndex < puzzleGen._columns - 1 && YIndex < puzzleGen._rows - 2
                     && !scanUnitARR[XIndex, YIndex]._isChained)
                 {
                     int scanUnitValue = scanUnitARR[XIndex, YIndex]._value;
-                    if (scanUnitARR[XIndex   , YIndex - 2]._value == scanUnitValue
-                    && scanUnitARR[XIndex    , YIndex - 1]._value == scanUnitValue
+                    if (scanUnitARR[XIndex - 1, YIndex    ]._value == scanUnitValue
                     && scanUnitARR[XIndex + 1, YIndex    ]._value == scanUnitValue
-                    && scanUnitARR[XIndex + 2, YIndex    ]._value == scanUnitValue
-                    && !scanUnitARR[XIndex    , YIndex - 2]._isChained
-                    && !scanUnitARR[XIndex    , YIndex - 1]._isChained
+                    && scanUnitARR[XIndex - 1, YIndex + 1]._value == scanUnitValue
+                    && scanUnitARR[XIndex + 1, YIndex + 1]._value == scanUnitValue
+                    && scanUnitARR[XIndex - 1, YIndex + 2]._value == scanUnitValue
+                    && scanUnitARR[XIndex + 1, YIndex + 2]._value == scanUnitValue
+                    && !scanUnitARR[XIndex - 1, YIndex    ]._isChained
                     && !scanUnitARR[XIndex + 1, YIndex    ]._isChained
-                    && !scanUnitARR[XIndex + 2, YIndex    ]._isChained)
+                    && !scanUnitARR[XIndex - 1, YIndex + 1]._isChained
+                    && !scanUnitARR[XIndex + 1, YIndex + 1]._isChained
+                    && !scanUnitARR[XIndex - 1, YIndex + 2]._isChained
+                    && !scanUnitARR[XIndex + 1, YIndex + 2]._isChained)
                     {
-                        scanUnitARR[XIndex    , YIndex - 2]._isChained = true;
-                        scanUnitARR[XIndex    , YIndex - 1]._isChained = true;
+                        scanUnitARR[XIndex - 1, YIndex    ]._isChained = true;
                         scanUnitARR[XIndex    , YIndex    ]._isChained = true;
                         scanUnitARR[XIndex + 1, YIndex    ]._isChained = true;
-                        scanUnitARR[XIndex + 2, YIndex    ]._isChained = true;
+                        scanUnitARR[XIndex - 1, YIndex + 1]._isChained = true;
+                        scanUnitARR[XIndex + 1, YIndex + 1]._isChained = true;
+                        scanUnitARR[XIndex - 1, YIndex + 2]._isChained = true;
+                        scanUnitARR[XIndex + 1, YIndex + 2]._isChained = true;
 
                         print("U7 chained at" + XIndex + " : " + YIndex + "value :" + scanUnitARR[XIndex, YIndex]._value);
                         _noChainedUnit = false;
-                        _unitCounter += 5;
+                        _unitCounter += unitCount;
                         _turnPoint += point;
 
                         if (_unitTypeCheckContainer.Contains(scanUnitARR[XIndex, YIndex]._value))
@@ -560,29 +519,35 @@ public class DestroyChainedUnit : MonoBehaviour {
                     }
                 }               
                 
-                // Check Up Left L chained
-                if (XIndex > 1 && YIndex < puzzleGen._rows - 2
+                // Check Left U chained
+                if (XIndex > 1 && YIndex > 0 && YIndex < puzzleGen._rows - 1
                     && !scanUnitARR[XIndex, YIndex]._isChained)
                 {
                     int scanUnitValue = scanUnitARR[XIndex, YIndex]._value;
-                    if (scanUnitARR[XIndex - 2, YIndex    ]._value == scanUnitValue
-                    && scanUnitARR[XIndex - 1, YIndex    ]._value == scanUnitValue
+                    if (scanUnitARR[XIndex - 2, YIndex - 1]._value == scanUnitValue
+                    && scanUnitARR[XIndex - 1, YIndex - 1]._value == scanUnitValue
+                    && scanUnitARR[XIndex    , YIndex - 1]._value == scanUnitValue
+                    && scanUnitARR[XIndex - 2, YIndex + 1]._value == scanUnitValue
+                    && scanUnitARR[XIndex - 1, YIndex + 1]._value == scanUnitValue
                     && scanUnitARR[XIndex    , YIndex + 1]._value == scanUnitValue
-                    && scanUnitARR[XIndex    , YIndex + 2]._value == scanUnitValue
-                    && !scanUnitARR[XIndex - 2, YIndex    ]._isChained
-                    && !scanUnitARR[XIndex - 1, YIndex    ]._isChained
-                    && !scanUnitARR[XIndex    , YIndex + 1]._isChained
-                    && !scanUnitARR[XIndex    , YIndex + 2]._isChained)
+                    && !scanUnitARR[XIndex - 2, YIndex - 1]._isChained
+                    && !scanUnitARR[XIndex - 1, YIndex - 1]._isChained
+                    && !scanUnitARR[XIndex    , YIndex - 1]._isChained
+                    && !scanUnitARR[XIndex - 2, YIndex + 1]._isChained
+                    && !scanUnitARR[XIndex - 1, YIndex + 1]._isChained
+                    && !scanUnitARR[XIndex    , YIndex + 1]._isChained)
                     {
-                        scanUnitARR[XIndex - 2, YIndex    ]._isChained = true;
-                        scanUnitARR[XIndex - 1, YIndex    ]._isChained = true;
+                        scanUnitARR[XIndex - 2, YIndex - 1]._isChained = true;
+                        scanUnitARR[XIndex - 1, YIndex - 1]._isChained = true;
+                        scanUnitARR[XIndex    , YIndex - 1]._isChained = true;
                         scanUnitARR[XIndex    , YIndex    ]._isChained = true;
+                        scanUnitARR[XIndex - 2, YIndex + 1]._isChained = true;
+                        scanUnitARR[XIndex - 1, YIndex + 1]._isChained = true;
                         scanUnitARR[XIndex    , YIndex + 1]._isChained = true;
-                        scanUnitARR[XIndex    , YIndex + 2]._isChained = true;
 
                         print("U7 chained at" + XIndex + " : " + YIndex + "value :" + scanUnitARR[XIndex, YIndex]._value);
                         _noChainedUnit = false;
-                        _unitCounter += 5;
+                        _unitCounter += unitCount;
                         _turnPoint += point;
 
                         if (_unitTypeCheckContainer.Contains(scanUnitARR[XIndex, YIndex]._value))
@@ -592,29 +557,35 @@ public class DestroyChainedUnit : MonoBehaviour {
                     }
                 }
                 
-                // Check Up Right L chained
-                if (XIndex < puzzleGen._columns - 2 && YIndex < puzzleGen._rows - 2
+                // Check Right U chained
+                if (XIndex < puzzleGen._columns - 2 && YIndex > 0 && YIndex < puzzleGen._rows - 1
                     && !scanUnitARR[XIndex, YIndex]._isChained)
                 {
                     int scanUnitValue = scanUnitARR[XIndex, YIndex]._value;
-                    if (scanUnitARR[XIndex + 1, YIndex    ]._value == scanUnitValue
-                    && scanUnitARR[XIndex + 2, YIndex    ]._value == scanUnitValue
+                    if (scanUnitARR[XIndex    , YIndex - 1]._value == scanUnitValue
+                    && scanUnitARR[XIndex + 1, YIndex - 1]._value == scanUnitValue
+                    && scanUnitARR[XIndex + 2, YIndex - 1]._value == scanUnitValue
                     && scanUnitARR[XIndex    , YIndex + 1]._value == scanUnitValue
-                    && scanUnitARR[XIndex    , YIndex + 2]._value == scanUnitValue
-                    && !scanUnitARR[XIndex + 1, YIndex    ]._isChained
-                    && !scanUnitARR[XIndex + 2, YIndex    ]._isChained
+                    && scanUnitARR[XIndex + 1, YIndex + 1]._value == scanUnitValue
+                    && scanUnitARR[XIndex + 2, YIndex + 1]._value == scanUnitValue
+                    && !scanUnitARR[XIndex    , YIndex - 1]._isChained
+                    && !scanUnitARR[XIndex + 1, YIndex - 1]._isChained
+                    && !scanUnitARR[XIndex + 2, YIndex - 1]._isChained
                     && !scanUnitARR[XIndex    , YIndex + 1]._isChained
-                    && !scanUnitARR[XIndex    , YIndex + 2]._isChained)
+                    && !scanUnitARR[XIndex + 1, YIndex + 1]._isChained
+                    && !scanUnitARR[XIndex + 2, YIndex + 1]._isChained)
                     {
-                        scanUnitARR[XIndex + 1, YIndex    ]._isChained = true;
-                        scanUnitARR[XIndex + 2, YIndex    ]._isChained = true;
+                        scanUnitARR[XIndex    , YIndex - 1]._isChained = true;
+                        scanUnitARR[XIndex + 1, YIndex - 1]._isChained = true;
+                        scanUnitARR[XIndex + 2, YIndex - 1]._isChained = true;
                         scanUnitARR[XIndex    , YIndex    ]._isChained = true;
                         scanUnitARR[XIndex    , YIndex + 1]._isChained = true;
-                        scanUnitARR[XIndex    , YIndex + 2]._isChained = true;
+                        scanUnitARR[XIndex + 1, YIndex + 1]._isChained = true;
+                        scanUnitARR[XIndex + 2, YIndex + 1]._isChained = true;
 
                         print("U7 chained at" + XIndex + " : " + YIndex + "value :" + scanUnitARR[XIndex, YIndex]._value);
                         _noChainedUnit = false;
-                        _unitCounter += 5;
+                        _unitCounter += unitCount;
                         _turnPoint += point;
 
                         if (_unitTypeCheckContainer.Contains(scanUnitARR[XIndex, YIndex]._value))
@@ -623,7 +594,7 @@ public class DestroyChainedUnit : MonoBehaviour {
                         }
                     }
                 }
-                */
+                
             }
         }
     }
@@ -631,6 +602,7 @@ public class DestroyChainedUnit : MonoBehaviour {
     private void scanLFiveChained()
     {
         int point = 5;
+        int unitCount = 5;
         for (int YIndex = 0; YIndex < puzzleGen._rows; YIndex++)
         {
             for (int XIndex = 0; XIndex < puzzleGen._columns; XIndex++)
@@ -658,7 +630,7 @@ public class DestroyChainedUnit : MonoBehaviour {
 
                         print("L5 chained at" + XIndex + " : " + YIndex + "value :" + scanUnitARR[XIndex, YIndex]._value);
                         _noChainedUnit = false;
-                        _unitCounter += 5;
+                        _unitCounter += unitCount;
                         _turnPoint += point;
 
                         if (_unitTypeCheckContainer.Contains(scanUnitARR[XIndex, YIndex]._value))
@@ -690,7 +662,7 @@ public class DestroyChainedUnit : MonoBehaviour {
 
                         print("L5 chained at" + XIndex + " : " + YIndex + "value :" + scanUnitARR[XIndex, YIndex]._value);
                         _noChainedUnit = false;
-                        _unitCounter += 5;
+                        _unitCounter += unitCount;
                         _turnPoint += point;
 
                         if (_unitTypeCheckContainer.Contains(scanUnitARR[XIndex, YIndex]._value))
@@ -722,7 +694,7 @@ public class DestroyChainedUnit : MonoBehaviour {
 
                         print("L5 chained at" + XIndex + " : " + YIndex + "value :" + scanUnitARR[XIndex, YIndex]._value);
                         _noChainedUnit = false;
-                        _unitCounter += 5;
+                        _unitCounter += unitCount;
                         _turnPoint += point;
 
                         if (_unitTypeCheckContainer.Contains(scanUnitARR[XIndex, YIndex]._value))
@@ -754,7 +726,7 @@ public class DestroyChainedUnit : MonoBehaviour {
 
                         print("L5 chained at" + XIndex + " : " + YIndex + "value :" + scanUnitARR[XIndex, YIndex]._value);
                         _noChainedUnit = false;
-                        _unitCounter += 5;
+                        _unitCounter += unitCount;
                         _turnPoint += point;
 
                         if (_unitTypeCheckContainer.Contains(scanUnitARR[XIndex, YIndex]._value))
@@ -770,6 +742,7 @@ public class DestroyChainedUnit : MonoBehaviour {
     private void scanCrossFiveChained()
     {
         int point = 5;
+        int unitCount = 5;
         for (int YIndex = 0; YIndex < puzzleGen._rows; YIndex++)
         {
             for (int XIndex = 0; XIndex < puzzleGen._columns; XIndex++)
@@ -796,7 +769,7 @@ public class DestroyChainedUnit : MonoBehaviour {
 
                         print("Cross5 chained at" + XIndex + " : " + YIndex + "value :" + scanUnitARR[XIndex, YIndex]._value);
                         _noChainedUnit = false;
-                        _unitCounter += 5;
+                        _unitCounter += unitCount;
                         _turnPoint += point;
 
                         if (_unitTypeCheckContainer.Contains(scanUnitARR[XIndex, YIndex]._value))
@@ -809,7 +782,81 @@ public class DestroyChainedUnit : MonoBehaviour {
         }
     }
 
+    private void scanLineFiveChained()
+    {
+        int point = 5;
+        int unitCount = 5;
+        for (int YIndex = 0; YIndex < puzzleGen._rows; YIndex++)
+        {
+            for (int XIndex = 0; XIndex < puzzleGen._columns; XIndex++)
+            {
 
+                // Check Horizontal line chained
+                if (XIndex > 1 && XIndex < puzzleGen._columns - 2
+                    && !scanUnitARR[XIndex, YIndex]._isChained)
+                {
+                    int scanUnitValue = scanUnitARR[XIndex, YIndex]._value;
+                    if (scanUnitARR[XIndex - 2, YIndex]._value == scanUnitValue
+                    && scanUnitARR[XIndex - 1, YIndex]._value == scanUnitValue
+                    && scanUnitARR[XIndex + 1, YIndex]._value == scanUnitValue
+                    && scanUnitARR[XIndex + 2, YIndex]._value == scanUnitValue
+                    && !scanUnitARR[XIndex - 2, YIndex]._isChained
+                    && !scanUnitARR[XIndex - 1, YIndex]._isChained
+                    && !scanUnitARR[XIndex + 1, YIndex]._isChained
+                    && !scanUnitARR[XIndex + 2, YIndex]._isChained)
+                    {
+                        scanUnitARR[XIndex - 2, YIndex]._isChained = true;
+                        scanUnitARR[XIndex - 1, YIndex]._isChained = true;
+                        scanUnitARR[XIndex    , YIndex]._isChained = true;
+                        scanUnitARR[XIndex + 1, YIndex]._isChained = true;
+                        scanUnitARR[XIndex + 2, YIndex]._isChained = true;
+
+                        print("Horizontal5 chained at" + XIndex + " : " + YIndex + "value :" + scanUnitARR[XIndex, YIndex]._value);
+                        _noChainedUnit = false;
+                        _unitCounter += unitCount;
+                        _turnPoint += point;
+
+                        if (_unitTypeCheckContainer.Contains(scanUnitARR[XIndex, YIndex]._value))
+                        {
+                            _unitTypeCheckContainer.Remove(scanUnitARR[XIndex, YIndex]._value);
+                        }
+                    }
+                }
+
+                // Check Vertical line chained
+                if (YIndex > 1 && YIndex < puzzleGen._rows - 2
+                    && !scanUnitARR[XIndex, YIndex]._isChained)
+                {
+                    int scanUnitValue = scanUnitARR[XIndex, YIndex]._value;
+                    if (scanUnitARR[XIndex, YIndex - 2]._value == scanUnitValue
+                    && scanUnitARR[XIndex, YIndex - 1]._value == scanUnitValue
+                    && scanUnitARR[XIndex, YIndex + 1]._value == scanUnitValue
+                    && scanUnitARR[XIndex, YIndex + 2]._value == scanUnitValue
+                    && !scanUnitARR[XIndex, YIndex - 2]._isChained
+                    && !scanUnitARR[XIndex, YIndex - 1]._isChained
+                    && !scanUnitARR[XIndex, YIndex + 1]._isChained
+                    && !scanUnitARR[XIndex, YIndex + 2]._isChained)
+                    {
+                        scanUnitARR[XIndex, YIndex - 2]._isChained = true;
+                        scanUnitARR[XIndex, YIndex - 1]._isChained = true;
+                        scanUnitARR[XIndex, YIndex    ]._isChained = true;
+                        scanUnitARR[XIndex, YIndex + 1]._isChained = true;
+                        scanUnitARR[XIndex, YIndex + 2]._isChained = true;
+
+                        print("Vertical5 chained at" + XIndex + " : " + YIndex + "value :" + scanUnitARR[XIndex, YIndex]._value);
+                        _noChainedUnit = false;
+                        _unitCounter += unitCount;
+                        _turnPoint += point;
+
+                        if (_unitTypeCheckContainer.Contains(scanUnitARR[XIndex, YIndex]._value))
+                        {
+                            _unitTypeCheckContainer.Remove(scanUnitARR[XIndex, YIndex]._value);
+                        }
+                    }
+                }
+            }
+        }
+    }
 
     bool isHorizontalTreeChained(int unitXIndex, int unitYIndex)
     {

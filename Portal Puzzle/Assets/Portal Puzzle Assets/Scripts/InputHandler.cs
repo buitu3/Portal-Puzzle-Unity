@@ -41,6 +41,8 @@ public class InputHandler : MonoBehaviour,IPointerDownHandler,IPointerUpHandler 
     private Vector2 _pointerCurrentPos;
     private Vector2 _direction;
 
+    int counter = 0;
+
     //==============================================
     // Unity Methods
     //==============================================

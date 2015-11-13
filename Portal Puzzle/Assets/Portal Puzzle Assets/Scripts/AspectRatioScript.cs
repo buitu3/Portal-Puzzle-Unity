@@ -18,6 +18,7 @@ public class AspectRatioScript : MonoBehaviour
         //}
         //Screen.SetResolution(480, 700, false);
 
+
         if (scaleHeight < 1.0f)
         {
             Rect rect = camera.rect;
@@ -27,13 +28,16 @@ public class AspectRatioScript : MonoBehaviour
         }
         else
         {
-            float scalewidth = 1.0f / scaleHeight; 
-            Rect rect = camera.rect; 
-            rect.width = scalewidth; 
-            rect.height = 1.0f; 
-            rect.x = (1.0f - scalewidth) / 2.0f; 
+            float scalewidth = 1.0f / scaleHeight;
+            Rect rect = camera.rect;
+            rect.width = scalewidth;
+            rect.height = 1.0f;
+            rect.x = (1.0f - scalewidth) / 2.0f;
             rect.y = 0; camera.rect = rect;
         }
 
+        
+        //Screen.SetResolution(350, 800, false);
+        //Screen.fullScreen = false;
     }
 }

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System.Collections;
 using System.Collections.Generic;
@@ -41,6 +42,7 @@ public class GeneratingPuzzle : MonoBehaviour {
     public GameObject[] _unitPrefabsContainer;                 // List contain Units Prefab
     public TextAsset _levelsInfo;                              // Text file store all levels infomation
 
+    public GameObject _coverForeGround;                        // Puzzle's covering
     public GameObject _portalGatePrefab;                       // Puzzle border prefab
     public GameObject _portalCornerPrefab;                     // Puzzle border corner prefab
     [HideInInspector]
@@ -120,9 +122,22 @@ public class GeneratingPuzzle : MonoBehaviour {
         _unitWidth = _unitPrefabsContainer[0].GetComponent<SpriteRenderer>().bounds.size.x;
         float cameraHeight = Camera.main.orthographicSize * 2;
         float cameraWidth = cameraHeight * Camera.main.aspect;
-        _YOffset = (cameraHeight - _unitHeight * _rows) / 2;
-        _XOffset = (cameraWidth - _unitWidth * _columns) / 2;
-        
+
+        float _pixelUnitHeight = _unitPrefabsContainer[0].GetComponent<SpriteRenderer>().sprite.texture.height;
+        float _pixelUnitWidth = _unitPrefabsContainer[0].GetComponent<SpriteRenderer>().sprite.texture.width;
+        float pixelCameraHeight = Camera.main.pixelHeight;
+        float pixelCameraWidth = Camera.main.pixelWidth;
+
+        // Puzzle starting's position
+        float pixelYOffset = (cameraHeight - _unitHeight * _rows) / 2 * (pixelCameraHeight/cameraHeight);
+        float pixelXOffset = (cameraWidth - _unitWidth * _columns) / 2 * (pixelCameraWidth/cameraWidth);
+        _YOffset = Camera.main.ScreenToWorldPoint(new Vector3(0, pixelYOffset, 0)).y;
+        _XOffset = Camera.main.ScreenToWorldPoint(new Vector3(pixelXOffset, 0, 0)).x;
+
+        // Scale foreground covering to fit current puzzle
+        float fillSize = cameraHeight - (_unitHeight * (_rows + 1) + _YOffset);
+        _coverForeGround.GetComponent<Image>().fillAmount = (fillSize / cameraHeight);
+
         // Generating value matrix
         _valueARR = generateValueMatrix();
 

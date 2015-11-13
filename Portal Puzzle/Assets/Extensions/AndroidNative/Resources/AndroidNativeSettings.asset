@@ -28,7 +28,7 @@ MonoBehaviour:
   MaxImageLoadSize: 512
   CameraCaptureMode: 0
   ShowPluginSettings: 0
-  ShowAppPermissions: 0
+  ShowAppPermissions: 1
   EnableBillingAPI: 1
   EnablePSAPI: 1
   EnableSocialAPI: 1
