@@ -6,24 +6,125 @@ Direct3D:
     Vendor:   Intel
     VRAM:     128 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\GoogleAdsWP8.dll (this message is harmless)
-Loading D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\GoogleAdsWP8.dll into Unity Child Domain
-Platform assembly: D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\OneSignalSDK.dll (this message is harmless)
-Loading D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\OneSignalSDK.dll into Unity Child Domain
-Platform assembly: D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\WP8Native.dll (this message is harmless)
-Loading D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\WP8Native.dll into Unity Child Domain
-Platform assembly: D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\WP8PopUps.dll (this message is harmless)
-Loading D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\WP8PopUps.dll into Unity Child Domain
-Platform assembly: D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.046 seconds
+Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\GoogleAdsWP8.dll (this message is harmless)
+Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\GoogleAdsWP8.dll into Unity Child Domain
+Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\OneSignalSDK.dll (this message is harmless)
+Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\OneSignalSDK.dll into Unity Child Domain
+Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\WP8Native.dll (this message is harmless)
+Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\WP8Native.dll into Unity Child Domain
+Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\WP8PopUps.dll (this message is harmless)
+Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\WP8PopUps.dll into Unity Child Domain
+Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.052 seconds
 desktop: 1280x1024 75Hz; virtual: 1280x1024 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\System.Xml.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 4a8 -> priority: 1 
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.270359 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 901.
+Total: 0.549446 ms (FindLiveObjects: 0.041054 ms CreateObjectMapping: 0.046186 ms MarkObjects: 0.448521 ms  DeleteObjects: 0.013342 ms)
+
+Level Main Menu is of wrong type. Won't look at it.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.752708 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 852.
+Total: 1.196398 ms (FindLiveObjects: 0.050291 ms CreateObjectMapping: 0.080398 ms MarkObjects: 1.009600 ms  DeleteObjects: 0.055765 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.584001 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1040.
+Total: 0.812538 ms (FindLiveObjects: 0.047554 ms CreateObjectMapping: 0.045502 ms MarkObjects: 0.707507 ms  DeleteObjects: 0.010605 ms)
+
+2 : 5 : 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal5 chained at2 : 6value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+1 : 2 : 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+L5 chained at4 : 2value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+L5 chained at0 : 5value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Cross5 chained at3 : 5value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+4 : 3 : 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal5 chained at2 : 5value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+2 : 4 : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal5 chained at2 : 2value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Cross5 chained at3 : 1value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+U7 chained at3 : 4value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+2 : 6 : 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+L5 chained at2 : 2value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.748582 ms
+Level selector may not work when Time.timeScale == 0. Setting it to 1.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1028.
+Total: 0.835460 ms (FindLiveObjects: 0.050633 ms CreateObjectMapping: 0.031475 ms MarkObjects: 0.736587 ms  DeleteObjects: 0.016421 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.783458 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 806.
+Total: 0.638740 ms (FindLiveObjects: 0.039343 ms CreateObjectMapping: 0.031133 ms MarkObjects: 0.541578 ms  DeleteObjects: 0.026343 ms)
+
