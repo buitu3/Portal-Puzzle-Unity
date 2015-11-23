@@ -6,125 +6,361 @@ Direct3D:
     Vendor:   Intel
     VRAM:     128 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\GoogleAdsWP8.dll (this message is harmless)
-Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\GoogleAdsWP8.dll into Unity Child Domain
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\OneSignalSDK.dll (this message is harmless)
-Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\OneSignalSDK.dll into Unity Child Domain
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\WP8Native.dll (this message is harmless)
-Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\WP8Native.dll into Unity Child Domain
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\WP8PopUps.dll (this message is harmless)
-Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\WP8PopUps.dll into Unity Child Domain
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.052 seconds
+Platform assembly: D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\GoogleAdsWP8.dll (this message is harmless)
+Loading D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\GoogleAdsWP8.dll into Unity Child Domain
+Platform assembly: D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\OneSignalSDK.dll (this message is harmless)
+Loading D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\OneSignalSDK.dll into Unity Child Domain
+Platform assembly: D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\WP8Native.dll (this message is harmless)
+Loading D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\WP8Native.dll into Unity Child Domain
+Platform assembly: D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\WP8PopUps.dll (this message is harmless)
+Loading D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\WP8PopUps.dll into Unity Child Domain
+Platform assembly: D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.046 seconds
 desktop: 1280x1024 75Hz; virtual: 1280x1024 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\System.dll (this message is harmless)
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\System.Xml.dll (this message is harmless)
+Platform assembly: D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\System.dll (this message is harmless)
+Platform assembly: D:\Unity Projects\Unity5 Projects\Portal Puzzle PC_Data\Managed\System.Xml.dll (this message is harmless)
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 4a8 -> priority: 1 
+  Thread -> id: 414 -> priority: 1 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.270359 ms
+UnloadTime: 8.354576 ms
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 901.
-Total: 0.549446 ms (FindLiveObjects: 0.041054 ms CreateObjectMapping: 0.046186 ms MarkObjects: 0.448521 ms  DeleteObjects: 0.013342 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 904.
+Total: 0.514548 ms (FindLiveObjects: 0.029080 ms CreateObjectMapping: 0.047212 ms MarkObjects: 0.422860 ms  DeleteObjects: 0.015053 ms)
 
 Level Main Menu is of wrong type. Won't look at it.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.752708 ms
+UnloadTime: 3.025027 ms
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 852.
-Total: 1.196398 ms (FindLiveObjects: 0.050291 ms CreateObjectMapping: 0.080398 ms MarkObjects: 1.009600 ms  DeleteObjects: 0.055765 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 864.
+Total: 1.425615 ms (FindLiveObjects: 0.062950 ms CreateObjectMapping: 0.095451 ms MarkObjects: 1.197420 ms  DeleteObjects: 0.068424 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.584001 ms
+UnloadTime: 1.606938 ms
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1040.
-Total: 0.812538 ms (FindLiveObjects: 0.047554 ms CreateObjectMapping: 0.045502 ms MarkObjects: 0.707507 ms  DeleteObjects: 0.010605 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1028.
+Total: 2.236782 ms (FindLiveObjects: 0.107425 ms CreateObjectMapping: 0.130689 ms MarkObjects: 1.971638 ms  DeleteObjects: 0.026001 ms)
 
-2 : 5 : 2
+2 : 0 : 1
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Horizontal5 chained at2 : 6value :0
+L5 chained at2 : 1value :1
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-1 : 2 : 1
+Horizontal3 chained at1 : 0value :0
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-L5 chained at4 : 2value :1
+Vertical3 chained at0 : 3value :2
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-L5 chained at0 : 5value :1
+L5 chained at2 : 2value :2
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Cross5 chained at3 : 5value :0
+Horizontal3 chained at4 : 3value :1
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-4 : 3 : 1
+Horizontal3 chained at2 : 3value :1
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Horizontal5 chained at2 : 5value :1
+Horizontal3 chained at4 : 5value :1
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-2 : 4 : 0
+Horizontal5 chained at2 : 5value :2
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Horizontal5 chained at2 : 2value :2
+L5 chained at3 : 4value :0
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Cross5 chained at3 : 1value :0
+Horizontal3 chained at2 : 6value :2
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-U7 chained at3 : 4value :2
+Vertical3 chained at3 : 5value :1
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-2 : 6 : 2
+L5 chained at3 : 6value :0
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-L5 chained at2 : 2value :0
+Vertical3 chained at3 : 3value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at3 : 2value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at1 : 4value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+1 : 4 : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+L5 chained at3 : 0value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Vertical3 chained at1 : 3value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at2 : 6value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal5 chained at3 : 6value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+2 : 5 : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Block9 chained at1 : 1value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Block9 chained at1 : 4value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+L5 chained at5 : 0value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Vertical3 chained at2 : 1value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at4 : 2value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at3 : 4value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at1 : 5value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal5 chained at2 : 0value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal4 chained at1 : 1value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Vertical4 chained at2 : 4value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at4 : 1value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at4 : 3value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Vertical3 chained at1 : 4value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Vertical4 chained at1 : 3value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Vertical3 chained at4 : 1value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Vertical4 chained at1 : 4value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at3 : 3value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at1 : 3value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at4 : 3value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at4 : 4value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at4 : 5value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Vertical3 chained at2 : 2value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at4 : 4value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Vertical4 chained at2 : 3value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Vertical5 chained at2 : 2value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at1 : 6value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal4 chained at1 : 0value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Vertical3 chained at2 : 2value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at3 : 2value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at4 : 2value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at2 : 4value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at1 : 6value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Vertical4 chained at5 : 1value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Vertical3 chained at4 : 5value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at4 : 0value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Vertical3 chained at5 : 5value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at4 : 3value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at3 : 4value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Vertical3 chained at4 : 4value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Cross5 chained at4 : 4value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at2 : 5value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Horizontal3 chained at2 : 6value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+3 : 2 : 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+3 : 2 : 2
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.748582 ms
+UnloadTime: 1.845054 ms
 Level selector may not work when Time.timeScale == 0. Setting it to 1.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1028.
-Total: 0.835460 ms (FindLiveObjects: 0.050633 ms CreateObjectMapping: 0.031475 ms MarkObjects: 0.736587 ms  DeleteObjects: 0.016421 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1029.
+Total: 0.834431 ms (FindLiveObjects: 0.034896 ms CreateObjectMapping: 0.033869 ms MarkObjects: 0.752322 ms  DeleteObjects: 0.013000 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.783458 ms
+UnloadTime: 1.220342 ms
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 806.
-Total: 0.638740 ms (FindLiveObjects: 0.039343 ms CreateObjectMapping: 0.031133 ms MarkObjects: 0.541578 ms  DeleteObjects: 0.026343 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 824.
+Total: 1.378060 ms (FindLiveObjects: 0.049265 ms CreateObjectMapping: 0.084845 ms MarkObjects: 1.201868 ms  DeleteObjects: 0.041738 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.427992 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1029.
+Total: 0.795429 ms (FindLiveObjects: 0.030106 ms CreateObjectMapping: 0.031132 ms MarkObjects: 0.724952 ms  DeleteObjects: 0.009237 ms)
+
+Level Main Menu is of wrong type. Won't look at it.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.511487 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 887.
+Total: 2.081801 ms (FindLiveObjects: 0.078345 ms CreateObjectMapping: 0.124531 ms MarkObjects: 1.815632 ms  DeleteObjects: 0.061581 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.491986 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1028.
+Total: 2.209754 ms (FindLiveObjects: 0.112215 ms CreateObjectMapping: 0.128637 ms MarkObjects: 1.944611 ms  DeleteObjects: 0.023264 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.470142 ms
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 788.
+Total: 1.929900 ms (FindLiveObjects: 0.080398 ms CreateObjectMapping: 0.122479 ms MarkObjects: 1.691100 ms  DeleteObjects: 0.034896 ms)
 

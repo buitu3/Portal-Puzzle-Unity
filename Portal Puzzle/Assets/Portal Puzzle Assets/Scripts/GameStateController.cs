@@ -11,11 +11,17 @@ public class GameStateController : MonoBehaviour {
 
     public GameObject gameOverPanel;
     public GameObject pauseGamePanel;
+    
     public Text scoreText;
     public Text bestScoreText;
 
     private DestroyChainedUnit destroyUnit;
     private GeneratingPuzzle puzzleGen;
+
+    private RectTransform gameOverPanelRectTransform;
+    private RectTransform pauseGamePanelRectTransform;
+    private Vector2 originalScale = new Vector2(1, 1);
+    private Vector2 zeroScale = new Vector2(0, 0);
 
     public enum gameState
     {
@@ -36,13 +42,18 @@ public class GameStateController : MonoBehaviour {
 
         destroyUnit = DestroyChainedUnit.Instance;
         puzzleGen = GeneratingPuzzle.Instance;
+
+        gameOverPanelRectTransform = gameOverPanel.GetComponent<RectTransform>();
+        pauseGamePanelRectTransform = pauseGamePanel.GetComponent<RectTransform>();
     }
 
     public IEnumerator endGame()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.2f);
         // Show Game Over panel
-        gameOverPanel.SetActive(true);
+        //gameOverPanel.SetActive(true);
+        iTween.Stop(gameObject);
+        iTween.ValueTo(gameObject, iTween.Hash("from", zeroScale, "to", originalScale, "time", 0.2f, "ignoretimescale", true, "onUpdate", "scaleGameOverPanel"));
         Time.timeScale = 0.0f;
 
         // Get current Level best score
@@ -83,13 +94,19 @@ public class GameStateController : MonoBehaviour {
 
     public void pauseGame()
     {
-        pauseGamePanel.SetActive(true);
-        Time.timeScale = 0.0f;
+        iTween.Stop(gameObject);
+        iTween.ValueTo(gameObject, iTween.Hash("from", zeroScale, "to", originalScale, "time", 0.2f, "ignoretimescale", true, "onUpdate", "scalePauseGamePanel"));
+
+        //pauseGamePanel.SetActive(true);
+        Time.timeScale = 0.0f;        
     }
 
     public void resumeGame()
     {
-        pauseGamePanel.SetActive(false);
+        iTween.Stop(gameObject);
+        iTween.ValueTo(gameObject, iTween.Hash("from", originalScale, "to", zeroScale, "time", 0.2f, "ignoretimescale", true, "onUpdate", "scalePauseGamePanel"));
+
+        //pauseGamePanel.SetActive(false);
         Time.timeScale = 1.0f;
     }
 
@@ -101,5 +118,17 @@ public class GameStateController : MonoBehaviour {
     public void quitGame()
     {
         MadLevel.LoadLevelByName("Main Menu");
+        Time.timeScale = 1.0f;
+    }
+
+    // Scaling PauseGamePanel display
+    void scalePauseGamePanel(Vector2 newSize)
+    {
+        pauseGamePanelRectTransform.localScale = newSize;
+    }
+    // Scaling GameOverPanel display
+    void scaleGameOverPanel(Vector2 newSize)
+    {
+        gameOverPanelRectTransform.localScale = newSize;
     }
 }

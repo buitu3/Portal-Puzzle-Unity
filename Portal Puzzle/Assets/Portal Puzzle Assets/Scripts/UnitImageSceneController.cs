@@ -10,6 +10,7 @@ public class UnitImageSceneController : MonoBehaviour {
     public GameObject[] sampleUnitsContainer;
     public Button[] editBtnContainer;
 
+    private Vector3[] editBtnPosContainer;
     private int currentIndex;
 
     void Start() 
@@ -21,6 +22,17 @@ public class UnitImageSceneController : MonoBehaviour {
             SpriteRenderer targetSpriteRend = UnitImageController.Instance.UnitsPrefabsContainer[i].GetComponent<SpriteRenderer>();
             sampleUnitSpriteRend.sprite = targetSpriteRend.sprite;
         }
+
+        //editBtnPosContainer = new Vector3[editBtnContainer.Length];
+        //for (int i = 0; i < editBtnPosContainer.Length; i++)
+        //{
+        //    editBtnPosContainer[i] = Camera.main.WorldToScreenPoint(sampleUnitsContainer[i].GetComponent<Transform>().position);
+        //}
+        //for (int i = 0; i < editBtnContainer.Length; i++)
+        //{
+        //    editBtnContainer[i].GetComponent<RectTransform>().position = new Vector3(editBtnPosContainer[i].x + 150, editBtnPosContainer[i].y, 0.0f);
+        //}
+
     }
 
     public void toMainGameScene()
