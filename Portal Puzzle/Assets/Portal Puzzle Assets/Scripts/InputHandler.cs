@@ -124,7 +124,6 @@ public class InputHandler : MonoBehaviour,IPointerDownHandler,IPointerUpHandler 
                 highLightUnit(_unit);
             }       
         }
-
         _pointerOriginPos = data.position;
     }
 

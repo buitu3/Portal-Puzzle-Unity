@@ -92,7 +92,7 @@ public class DestroyChainedUnit : MonoBehaviour {
     // Methods
     //==============================================
 
-    // Called when button finish is clicked
+
     public void onBtnFinishClicked()
     {
         if (GameStateController.currentState == GameStateController.gameState.idle)
@@ -1095,7 +1095,7 @@ public class DestroyChainedUnit : MonoBehaviour {
 
     private void scanLineThreeChained()
     {
-        int point = 3;
+        int point = 1;
         int unitCount = 3;
         for (int YIndex = 0; YIndex < puzzleGen._rows; YIndex++)
         {

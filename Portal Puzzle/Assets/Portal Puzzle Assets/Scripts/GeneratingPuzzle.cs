@@ -94,7 +94,7 @@ public class GeneratingPuzzle : MonoBehaviour {
     void Awake()
     {
         Instance = this;
-
+        
         string levelsInfoString = _levelsInfo.text;
         JSONObject levelsInfoJSON = new JSONObject(levelsInfoString);
         JSONObject puzzleInfoJSON = levelsInfoJSON.GetField(MadLevel.arguments);

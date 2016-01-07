@@ -73,7 +73,7 @@ MonoBehaviour:
     arguments: Level 3
     groupId: 0
     extensionGUID: 256365e9-33a4-47ea-bca3-d79e38792cc7
-    lockedByDefault: 1
+    lockedByDefault: 0
   - _sceneObject: {fileID: 102900000, guid: f5bd0e038d78cb2489a16db06571f3ec, type: 3}
     _scenePath: Assets/Portal Puzzle Assets/_Scenes/_Main Game.unity
     _sceneName: _Main Game
