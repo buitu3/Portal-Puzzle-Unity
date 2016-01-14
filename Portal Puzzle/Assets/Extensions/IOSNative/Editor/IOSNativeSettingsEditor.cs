@@ -80,7 +80,7 @@ public class IOSNativeSettingsEditor : Editor {
 		EditorGUILayout.BeginHorizontal();
 		EditorGUILayout.Space();
 		if(GUILayout.Button("Switch To IOS Platfrom",  GUILayout.Width(150))) {
-			EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTarget.iPhone);
+			EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTarget.iOS);
 		}
 		EditorGUILayout.EndHorizontal();
 
