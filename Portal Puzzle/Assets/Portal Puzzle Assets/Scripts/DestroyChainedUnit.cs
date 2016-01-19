@@ -216,7 +216,9 @@ public class DestroyChainedUnit : MonoBehaviour {
                 }
             }
         }
-        yield return (StartCoroutine(playDestroyUnitsAnimation(shrinkUnitsList)));
+
+        //yield return (StartCoroutine(playDestroyUnitsAnimation(shrinkUnitsList)));
+        StartCoroutine(playDestroyUnitsAnimation(shrinkUnitsList));
 
         for (int YIndex = 0; YIndex < puzzleGen._rows; YIndex++)
         {
@@ -224,7 +226,7 @@ public class DestroyChainedUnit : MonoBehaviour {
             {
                 if (scanUnitARR[XIndex, YIndex]._isChained)
                 {
-                    Destroy(puzzleGen._unitARR[XIndex, YIndex]);
+                    Destroy(puzzleGen._unitARR[XIndex, YIndex], 3.0f);
                 }
             }
         }

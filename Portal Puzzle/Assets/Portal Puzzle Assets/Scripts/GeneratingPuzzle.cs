@@ -242,7 +242,7 @@ public class GeneratingPuzzle : MonoBehaviour {
                 int nullObjectCount = 0;
                 for (int YIndex = 0; YIndex < _rows; YIndex++)
                 {
-                    if (_unitARR[XIndex, YIndex] == null)
+                    if (destroyUnit.scanUnitARR[XIndex, YIndex]._isChained)
                     {
                         nullObjectCount += 1;
                     }
