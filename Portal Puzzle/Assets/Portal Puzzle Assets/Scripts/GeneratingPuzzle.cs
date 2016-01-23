@@ -68,7 +68,7 @@ public class GeneratingPuzzle : MonoBehaviour {
     [HideInInspector]
     public int _3starPoint;                                    // Score needed to get 3 Star     
 
-    public int _unitFallingSpd;                                // Unit falling down speed
+    public float _unitFallingSpd;                                // Unit falling down speed
 
     //[HideInInspector]
     //public float _unitWidth = 0.8f;                          // The width of an unit
@@ -242,7 +242,7 @@ public class GeneratingPuzzle : MonoBehaviour {
                 int nullObjectCount = 0;
                 for (int YIndex = 0; YIndex < _rows; YIndex++)
                 {
-                    if (_unitARR[XIndex, YIndex] == null)
+                    if (destroyUnit.scanUnitARR[XIndex, YIndex]._isChained)
                     {
                         nullObjectCount += 1;
                     }

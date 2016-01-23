@@ -52,7 +52,7 @@ public class GameStateController : MonoBehaviour {
         yield return new WaitForSeconds(0.2f);
         // Show Game Over panel
         //gameOverPanel.SetActive(true);
-        iTween.Stop(gameObject);
+        //iTween.Stop(gameObject);
         iTween.ValueTo(gameObject, iTween.Hash("from", zeroScale, "to", originalScale, "time", 0.2f, "ignoretimescale", true, "onUpdate", "scaleGameOverPanel"));
         Time.timeScale = 0.0f;
 

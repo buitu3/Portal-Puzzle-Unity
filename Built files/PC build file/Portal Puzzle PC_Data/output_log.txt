@@ -1,108 +1,154 @@
-Initialize engine version: 5.2.1f1 (44735ea161b3)
+Initialize engine version: 5.3.1p2 (49544457ab1d)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: Intel(R) HD Graphics (ID=0x402)
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
     Vendor:   Intel
-    VRAM:     128 MB
+    VRAM:     1792 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\GoogleAdsWP8.dll (this message is harmless)
-Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\GoogleAdsWP8.dll into Unity Child Domain
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\OneSignalSDK.dll (this message is harmless)
-Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\OneSignalSDK.dll into Unity Child Domain
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\WP8Native.dll (this message is harmless)
-Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\WP8Native.dll into Unity Child Domain
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\WP8PopUps.dll (this message is harmless)
-Loading C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\WP8PopUps.dll into Unity Child Domain
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.051 seconds
-desktop: 1280x1024 75Hz; virtual: 1280x1024 at 0,0
+Platform assembly: D:\Unity projects\Portal Puzzle PC_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Unity projects\Portal Puzzle PC_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Unity projects\Portal Puzzle PC_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Unity projects\Portal Puzzle PC_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Unity projects\Portal Puzzle PC_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Unity projects\Portal Puzzle PC_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Unity projects\Portal Puzzle PC_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Unity projects\Portal Puzzle PC_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Unity projects\Portal Puzzle PC_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Unity projects\Portal Puzzle PC_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Unity projects\Portal Puzzle PC_Data\Managed\GoogleAdsWP8.dll (this message is harmless)
+Loading D:\Unity projects\Portal Puzzle PC_Data\Managed\GoogleAdsWP8.dll into Unity Child Domain
+Platform assembly: D:\Unity projects\Portal Puzzle PC_Data\Managed\OneSignalSDK.dll (this message is harmless)
+Loading D:\Unity projects\Portal Puzzle PC_Data\Managed\OneSignalSDK.dll into Unity Child Domain
+Platform assembly: D:\Unity projects\Portal Puzzle PC_Data\Managed\WP8Native.dll (this message is harmless)
+Loading D:\Unity projects\Portal Puzzle PC_Data\Managed\WP8Native.dll into Unity Child Domain
+Platform assembly: D:\Unity projects\Portal Puzzle PC_Data\Managed\WP8PopUps.dll (this message is harmless)
+Loading D:\Unity projects\Portal Puzzle PC_Data\Managed\WP8PopUps.dll into Unity Child Domain
+- Completed reload, in  0.046 seconds
+Platform assembly: D:\Unity projects\Portal Puzzle PC_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Unity projects\Portal Puzzle PC_Data\Managed\System.dll (this message is harmless)
+Platform assembly: D:\Unity projects\Portal Puzzle PC_Data\Managed\System.Xml.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\System.dll (this message is harmless)
-Platform assembly: C:\Users\TTU\Documents\GitHub\Portal-Puzzle-Unity\Built files\PC build file\Portal Puzzle PC_Data\Managed\System.Xml.dll (this message is harmless)
+UnloadTime: 0.630093 ms
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.057488 ms
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 900.
+Total: 0.459633 ms (FindLiveObjects: 0.042615 ms CreateObjectMapping: 0.032341 ms MarkObjects: 0.369456 ms  DeleteObjects: 0.015219 ms)
+
+Level Main Menu is of wrong type. Won't look at it.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.878104 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 860.
+Total: 0.584053 ms (FindLiveObjects: 0.050605 ms CreateObjectMapping: 0.032341 ms MarkObjects: 0.471048 ms  DeleteObjects: 0.029678 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.598893 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1026.
+Total: 0.630093 ms (FindLiveObjects: 0.034624 ms CreateObjectMapping: 0.033483 ms MarkObjects: 0.550190 ms  DeleteObjects: 0.011034 ms)
+
+1 : 4 : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Horizontal3 chained at1 : 3value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Horizontal3 chained at3 : 4value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Vertical3 chained at0 : 5value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Horizontal3 chained at3 : 5value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Horizontal3 chained at2 : 6value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Cross5 chained at4 : 5value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Horizontal3 chained at1 : 5value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Vertical4 chained at4 : 4value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Vertical3 chained at0 : 5value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Horizontal3 chained at3 : 6value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+2 : 5 : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+2 : 5 : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+2 : 5 : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+4 : 2 : 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Horizontal3 chained at3 : 2value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Horizontal3 chained at3 : 3value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+L5 chained at2 : 3value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Horizontal3 chained at2 : 4value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Horizontal3 chained at3 : 4value :0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Horizontal3 chained at4 : 4value :2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Horizontal3 chained at1 : 5value :1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.139121 ms
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 786.
+Total: 0.799792 ms (FindLiveObjects: 0.081044 ms CreateObjectMapping: 0.049083 ms MarkObjects: 0.647215 ms  DeleteObjects: 0.020927 ms)
+
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: c9c -> priority: 1 
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.148879 ms
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 904.
-Total: 0.429017 ms (FindLiveObjects: 0.025316 ms CreateObjectMapping: 0.032843 ms MarkObjects: 0.357514 ms  DeleteObjects: 0.013000 ms)
-
-Level Main Menu is of wrong type. Won't look at it.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.820787 ms
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 729.
-Total: 0.988040 ms (FindLiveObjects: 0.041738 ms CreateObjectMapping: 0.061923 ms MarkObjects: 0.835112 ms  DeleteObjects: 0.048923 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.072558 ms
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 934.
-Total: 2.136192 ms (FindLiveObjects: 0.092714 ms CreateObjectMapping: 0.108793 ms MarkObjects: 1.905603 ms  DeleteObjects: 0.028395 ms)
-
-Level Main Menu is of wrong type. Won't look at it.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.013713 ms
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 729.
-Total: 1.858049 ms (FindLiveObjects: 0.063292 ms CreateObjectMapping: 0.106056 ms MarkObjects: 1.605223 ms  DeleteObjects: 0.082450 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.286368 ms
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 934.
-Total: 2.081110 ms (FindLiveObjects: 0.087240 ms CreateObjectMapping: 0.109820 ms MarkObjects: 1.860101 ms  DeleteObjects: 0.023264 ms)
-
-Level Main Menu is of wrong type. Won't look at it.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.661316 ms
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 864.
-Total: 0.801927 ms (FindLiveObjects: 0.057818 ms CreateObjectMapping: 0.039001 ms MarkObjects: 0.666790 ms  DeleteObjects: 0.037290 ms)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.648330 ms
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1038.
-Total: 1.403715 ms (FindLiveObjects: 0.062265 ms CreateObjectMapping: 0.072187 ms MarkObjects: 1.251814 ms  DeleteObjects: 0.016421 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 5.015467 ms
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 861.
-Total: 2.168351 ms (FindLiveObjects: 0.085187 ms CreateObjectMapping: 0.114267 ms MarkObjects: 1.927841 ms  DeleteObjects: 0.040712 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.622671 ms
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1038.
-Total: 2.320936 ms (FindLiveObjects: 0.109478 ms CreateObjectMapping: 0.120083 ms MarkObjects: 2.065373 ms  DeleteObjects: 0.024632 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.821143 ms
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 798.
-Total: 2.043477 ms (FindLiveObjects: 0.076634 ms CreateObjectMapping: 0.114267 ms MarkObjects: 1.808784 ms  DeleteObjects: 0.042422 ms)
-
+  Thread -> id: 1408 -> priority: 1 

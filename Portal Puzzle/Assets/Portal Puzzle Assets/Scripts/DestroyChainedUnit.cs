@@ -163,7 +163,7 @@ public class DestroyChainedUnit : MonoBehaviour {
         {
             // Update total score if there are no more chained units
             //StartCoroutine(updateScore());
-            iTween.Stop(gameObject);
+            //iTween.Stop(gameObject);
             iTween.ValueTo(gameObject, iTween.Hash("from", _score, "to", _score + (_turnPoint * _unitTypeCounter), "time", 0.6, "onUpdate", "updateScore", "ignoretimescale", true));
             _score += (_turnPoint * _unitTypeCounter);
 
@@ -176,7 +176,44 @@ public class DestroyChainedUnit : MonoBehaviour {
         }
     }
 
-    // Play shrink chained Units animation before destroy
+    // Destroy Unit that is marked as chained
+    IEnumerator destroyChainedUnits()
+    {
+        // Add chained Units into shrinking List for destroy animation
+        List<GameObject> shrinkUnitsList = new List<GameObject>();
+        for (int YIndex = 0; YIndex < puzzleGen._rows; YIndex++)
+        {
+            for (int XIndex = 0; XIndex < puzzleGen._columns; XIndex++)
+            {
+                if (scanUnitARR[XIndex, YIndex]._isChained)
+                {
+                    shrinkUnitsList.Add(puzzleGen._unitARR[XIndex, YIndex]);
+                }
+            }
+        }
+
+        //yield return (StartCoroutine(playDestroyUnitsAnimation(shrinkUnitsList)));
+        StartCoroutine(playDestroyUnitsAnimation(shrinkUnitsList));
+
+        for (int YIndex = 0; YIndex < puzzleGen._rows; YIndex++)
+        {
+            for (int XIndex = 0; XIndex < puzzleGen._columns; XIndex++)
+            {
+                if (scanUnitARR[XIndex, YIndex]._isChained)
+                {
+                    Destroy(puzzleGen._unitARR[XIndex, YIndex], 3.0f);
+                }
+            }
+        }
+        yield return new WaitForEndOfFrame();
+        puzzleGen.organizePuzzleAfterDestroy();
+        //if (inputHandler._unitHighLight.activeInHierarchy)
+        //{
+        //    inputHandler._unitHighLight.SetActive(false);
+        //}
+    }
+
+    // Shrink chained Units Image before destroy
     IEnumerator playDestroyUnitsAnimation(List<GameObject> shrinkUnitsContainer)
     {
         List<Vector3> shrinkUnitsContainerDesPos = new List<Vector3>();
@@ -199,41 +236,6 @@ public class DestroyChainedUnit : MonoBehaviour {
             }
             yield return new WaitForEndOfFrame();
         }
-    }
-
-    // Destroy Unit that is marked as chained
-    IEnumerator destroyChainedUnits()
-    {
-        // Add chained Units into shrinking List for destroy animation
-        List<GameObject> shrinkUnitsList = new List<GameObject>();
-        for (int YIndex = 0; YIndex < puzzleGen._rows; YIndex++)
-        {
-            for (int XIndex = 0; XIndex < puzzleGen._columns; XIndex++)
-            {
-                if (scanUnitARR[XIndex, YIndex]._isChained)
-                {
-                    shrinkUnitsList.Add(puzzleGen._unitARR[XIndex, YIndex]);
-                }
-            }
-        }
-        yield return (StartCoroutine(playDestroyUnitsAnimation(shrinkUnitsList)));
-
-        for (int YIndex = 0; YIndex < puzzleGen._rows; YIndex++)
-        {
-            for (int XIndex = 0; XIndex < puzzleGen._columns; XIndex++)
-            {
-                if (scanUnitARR[XIndex, YIndex]._isChained)
-                {
-                    Destroy(puzzleGen._unitARR[XIndex, YIndex]);
-                }
-            }
-        }
-        yield return new WaitForEndOfFrame();
-        puzzleGen.organizePuzzleAfterDestroy();
-        //if (inputHandler._unitHighLight.activeInHierarchy)
-        //{
-        //    inputHandler._unitHighLight.SetActive(false);
-        //}
     }
 
     //IEnumerator updateScore()
@@ -288,6 +290,7 @@ public class DestroyChainedUnit : MonoBehaviour {
     //        yield return new WaitForSeconds(3 / 60);
     //    }
     //}
+
     void updateScore(int newScore)
     {
         _scoreText.text = newScore.ToString();
