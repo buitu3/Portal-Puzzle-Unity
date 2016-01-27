@@ -163,7 +163,7 @@ public class DestroyChainedUnit : MonoBehaviour {
         {
             // Update total score if there are no more chained units
             //StartCoroutine(updateScore());
-            iTween.Stop(gameObject);
+            //iTween.Stop(gameObject);
             iTween.ValueTo(gameObject, iTween.Hash("from", _score, "to", _score + (_turnPoint * _unitTypeCounter), "time", 0.6, "onUpdate", "updateScore", "ignoretimescale", true));
             _score += (_turnPoint * _unitTypeCounter);
 
@@ -173,31 +173,6 @@ public class DestroyChainedUnit : MonoBehaviour {
             {
                 StartCoroutine(gameStateController.endGame());
             }
-        }
-    }
-
-    // Play shrink chained Units animation before destroy
-    IEnumerator playDestroyUnitsAnimation(List<GameObject> shrinkUnitsContainer)
-    {
-        List<Vector3> shrinkUnitsContainerDesPos = new List<Vector3>();
-        for (int i = 0; i < shrinkUnitsContainer.Count; i++)
-        {
-            shrinkUnitsContainerDesPos.Add(new Vector3 (shrinkUnitsContainer[i].transform.position.x + puzzleGen._unitWidth/2,
-                                                            shrinkUnitsContainer[i].transform.position.y + puzzleGen._unitHeight/2,
-                                                            shrinkUnitsContainer[i].transform.position.z));
-        }
-        while (shrinkUnitsContainer[0].transform.localScale != Vector3.zero)
-        {
-            for (int i = 0; i < shrinkUnitsContainer.Count; i++)
-            {
-                shrinkUnitsContainer[i].transform.localScale = Vector3.MoveTowards(shrinkUnitsContainer[i].transform.localScale, 
-                                                                                   Vector3.zero, 
-                                                                                   0.15f);
-                shrinkUnitsContainer[i].transform.position = Vector3.MoveTowards(shrinkUnitsContainer[i].transform.position,
-                                                                                shrinkUnitsContainerDesPos[i],
-                                                                                0.05f);
-            }
-            yield return new WaitForEndOfFrame();
         }
     }
 
@@ -236,6 +211,31 @@ public class DestroyChainedUnit : MonoBehaviour {
         //{
         //    inputHandler._unitHighLight.SetActive(false);
         //}
+    }
+
+    // Shrink chained Units Image before destroy
+    IEnumerator playDestroyUnitsAnimation(List<GameObject> shrinkUnitsContainer)
+    {
+        List<Vector3> shrinkUnitsContainerDesPos = new List<Vector3>();
+        for (int i = 0; i < shrinkUnitsContainer.Count; i++)
+        {
+            shrinkUnitsContainerDesPos.Add(new Vector3 (shrinkUnitsContainer[i].transform.position.x + puzzleGen._unitWidth/2,
+                                                            shrinkUnitsContainer[i].transform.position.y + puzzleGen._unitHeight/2,
+                                                            shrinkUnitsContainer[i].transform.position.z));
+        }
+        while (shrinkUnitsContainer[0].transform.localScale != Vector3.zero)
+        {
+            for (int i = 0; i < shrinkUnitsContainer.Count; i++)
+            {
+                shrinkUnitsContainer[i].transform.localScale = Vector3.MoveTowards(shrinkUnitsContainer[i].transform.localScale, 
+                                                                                   Vector3.zero, 
+                                                                                   0.15f);
+                shrinkUnitsContainer[i].transform.position = Vector3.MoveTowards(shrinkUnitsContainer[i].transform.position,
+                                                                                shrinkUnitsContainerDesPos[i],
+                                                                                0.05f);
+            }
+            yield return new WaitForEndOfFrame();
+        }
     }
 
     //IEnumerator updateScore()
@@ -290,6 +290,7 @@ public class DestroyChainedUnit : MonoBehaviour {
     //        yield return new WaitForSeconds(3 / 60);
     //    }
     //}
+
     void updateScore(int newScore)
     {
         _scoreText.text = newScore.ToString();

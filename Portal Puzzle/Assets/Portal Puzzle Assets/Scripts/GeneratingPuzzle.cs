@@ -68,7 +68,7 @@ public class GeneratingPuzzle : MonoBehaviour {
     [HideInInspector]
     public int _3starPoint;                                    // Score needed to get 3 Star     
 
-    public int _unitFallingSpd;                                // Unit falling down speed
+    public float _unitFallingSpd;                                // Unit falling down speed
 
     //[HideInInspector]
     //public float _unitWidth = 0.8f;                          // The width of an unit
