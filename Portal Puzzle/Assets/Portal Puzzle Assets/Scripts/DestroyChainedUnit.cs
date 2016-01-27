@@ -205,7 +205,8 @@ public class DestroyChainedUnit : MonoBehaviour {
                 }
             }
         }
-        yield return new WaitForEndOfFrame();
+        //yield return new WaitForEndOfFrame();
+        yield return new WaitForSeconds(0.1f);
         puzzleGen.organizePuzzleAfterDestroy();
         //if (inputHandler._unitHighLight.activeInHierarchy)
         //{
@@ -222,17 +223,35 @@ public class DestroyChainedUnit : MonoBehaviour {
             shrinkUnitsContainerDesPos.Add(new Vector3 (shrinkUnitsContainer[i].transform.position.x + puzzleGen._unitWidth/2,
                                                             shrinkUnitsContainer[i].transform.position.y + puzzleGen._unitHeight/2,
                                                             shrinkUnitsContainer[i].transform.position.z));
+
         }
         while (shrinkUnitsContainer[0].transform.localScale != Vector3.zero)
         {
             for (int i = 0; i < shrinkUnitsContainer.Count; i++)
             {
-                shrinkUnitsContainer[i].transform.localScale = Vector3.MoveTowards(shrinkUnitsContainer[i].transform.localScale, 
-                                                                                   Vector3.zero, 
-                                                                                   0.15f);
+                //shrinkUnitsContainer[i].transform.localScale = Vector3.MoveTowards(shrinkUnitsContainer[i].transform.localScale, 
+                //                                                                   Vector3.zero, 
+                //                                                                   0.15f);
+                //shrinkUnitsContainer[i].transform.position = Vector3.MoveTowards(shrinkUnitsContainer[i].transform.position,
+                //                                                                shrinkUnitsContainerDesPos[i],
+                //                                                                0.05f);
+
+                // Shrink chained Unit into zero size
+                shrinkUnitsContainer[i].transform.localScale = Vector3.MoveTowards(shrinkUnitsContainer[i].transform.localScale,
+                                                                                   Vector3.zero,
+                                                                                   0.085f);
                 shrinkUnitsContainer[i].transform.position = Vector3.MoveTowards(shrinkUnitsContainer[i].transform.position,
                                                                                 shrinkUnitsContainerDesPos[i],
-                                                                                0.05f);
+                                                                                0.039f);
+                // Make chained Unit fall down
+                Vector3 dropDesPos = new Vector3(shrinkUnitsContainer[i].transform.position.x,
+                                                    shrinkUnitsContainer[i].transform.position.y - puzzleGen._unitHeight / 2,
+                                                    shrinkUnitsContainer[i].transform.position.z);
+                shrinkUnitsContainer[i].transform.position = Vector3.MoveTowards(shrinkUnitsContainer[i].transform.position,
+                                                                                dropDesPos,
+                                                                                0.02f);
+
+                
             }
             yield return new WaitForEndOfFrame();
         }

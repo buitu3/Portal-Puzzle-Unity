@@ -4858,7 +4858,7 @@ MonoBehaviour:
   _1starPoint: 0
   _2starPoint: 0
   _3starPoint: 0
-  _unitFallingSpd: 5
+  _unitFallingSpd: 3.25
   _unitWidth: 0.8
   _unitHeight: 0.8
 --- !u!114 &1980599292
