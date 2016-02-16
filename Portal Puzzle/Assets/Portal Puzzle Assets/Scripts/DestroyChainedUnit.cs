@@ -97,16 +97,16 @@ public class DestroyChainedUnit : MonoBehaviour {
     {
         if (GameStateController.currentState == GameStateController.gameState.idle)
         {
-            if (puzzleGen._turns > 1)
+            if (puzzleGen._turns > 0)
             {
                 puzzleGen._turns -= 1;
                 _turnText.text = puzzleGen._turns.ToString();
             }
-            else
-            {
-                puzzleGen._turns -= 1;
-                _turnText.text = ("Game Over");
-            }
+            //else
+            //{
+            //    puzzleGen._turns -= 1;
+            //    _turnText.text = ("Game Over");
+            //}
 
             //StartCoroutine(destroyChainedUnits());
             _unitCounter = 0;
@@ -205,7 +205,8 @@ public class DestroyChainedUnit : MonoBehaviour {
                 }
             }
         }
-        yield return new WaitForEndOfFrame();
+        //yield return new WaitForEndOfFrame();
+        yield return new WaitForSeconds(0.02f);
         puzzleGen.organizePuzzleAfterDestroy();
         //if (inputHandler._unitHighLight.activeInHierarchy)
         //{
@@ -222,17 +223,35 @@ public class DestroyChainedUnit : MonoBehaviour {
             shrinkUnitsContainerDesPos.Add(new Vector3 (shrinkUnitsContainer[i].transform.position.x + puzzleGen._unitWidth/2,
                                                             shrinkUnitsContainer[i].transform.position.y + puzzleGen._unitHeight/2,
                                                             shrinkUnitsContainer[i].transform.position.z));
+
         }
         while (shrinkUnitsContainer[0].transform.localScale != Vector3.zero)
         {
             for (int i = 0; i < shrinkUnitsContainer.Count; i++)
             {
-                shrinkUnitsContainer[i].transform.localScale = Vector3.MoveTowards(shrinkUnitsContainer[i].transform.localScale, 
-                                                                                   Vector3.zero, 
-                                                                                   0.15f);
+                //shrinkUnitsContainer[i].transform.localScale = Vector3.MoveTowards(shrinkUnitsContainer[i].transform.localScale, 
+                //                                                                   Vector3.zero, 
+                //                                                                   0.15f);
+                //shrinkUnitsContainer[i].transform.position = Vector3.MoveTowards(shrinkUnitsContainer[i].transform.position,
+                //                                                                shrinkUnitsContainerDesPos[i],
+                //                                                                0.05f);
+
+                // Shrink chained Unit into zero size
+                shrinkUnitsContainer[i].transform.localScale = Vector3.MoveTowards(shrinkUnitsContainer[i].transform.localScale,
+                                                                                   Vector3.zero,
+                                                                                   0.1f);
                 shrinkUnitsContainer[i].transform.position = Vector3.MoveTowards(shrinkUnitsContainer[i].transform.position,
                                                                                 shrinkUnitsContainerDesPos[i],
-                                                                                0.05f);
+                                                                                0.045f);
+                // Make chained Unit fall down
+                Vector3 dropDesPos = new Vector3(shrinkUnitsContainer[i].transform.position.x,
+                                                    shrinkUnitsContainer[i].transform.position.y - puzzleGen._unitHeight / 2,
+                                                    shrinkUnitsContainer[i].transform.position.z);
+                shrinkUnitsContainer[i].transform.position = Vector3.MoveTowards(shrinkUnitsContainer[i].transform.position,
+                                                                                dropDesPos,
+                                                                                0.03f);
+
+                
             }
             yield return new WaitForEndOfFrame();
         }

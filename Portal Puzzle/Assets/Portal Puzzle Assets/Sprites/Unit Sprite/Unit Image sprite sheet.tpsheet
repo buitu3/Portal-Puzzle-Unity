@@ -1,0 +1,17 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:c5c42d997d6a6b94e2d3ad1859aa4bfc:38ab331169006dbf2317c5611d57ea65:a04b8d34057487e6c474732827b4156e$
+#
+:format=40000
+:texture=Unit Image sprite sheet.png
+:size=128x128
+
+element_blue_diamond_glossy;1;24;48;48;0;0; 8;48;28;48;20;28;0;20;0;0;20;0;28;20;48;28;48; 6;5;6;7;4;5;7;3;4;7;2;3;7;1;2;7;0;1;7
+element_grey_diamond_glossy;1;79;48;48;0;0; 8;48;28;48;20;28;0;20;0;0;20;0;28;20;48;28;48; 6;5;6;7;4;5;7;3;4;7;2;3;7;1;2;7;0;1;7
+element_purple_diamond_glossy;33;52;48;48;0;0; 8;48;28;48;20;28;0;20;0;0;20;0;28;20;48;28;48; 6;5;6;7;4;5;7;3;4;7;2;3;7;1;2;7;0;1;7
+element_red_diamond_glossy;64;24;48;48;0;0; 8;48;28;48;20;28;0;20;0;0;20;0;28;20;48;28;48; 6;5;6;7;4;5;7;3;4;7;2;3;7;1;2;7;0;1;7
+element_yellow_diamond_glossy;65;79;48;48;0;0; 8;48;28;48;20;28;0;20;0;0;20;0;28;20;48;28;48; 6;5;6;7;4;5;7;3;4;7;2;3;7;1;2;7;0;1;7
