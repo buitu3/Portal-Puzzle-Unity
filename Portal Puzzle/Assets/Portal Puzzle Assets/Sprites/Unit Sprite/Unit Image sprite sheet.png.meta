@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: 89a492ba23934a548b3e61ac960536c7
+timeCreated: 1455460423
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: element_blue_diamond_glossy
+    21300002: element_grey_diamond_glossy
+    21300004: element_purple_diamond_glossy
+    21300006: element_red_diamond_glossy
+    21300008: element_yellow_diamond_glossy
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 256
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 60
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: element_blue_diamond_glossy
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 24
+        width: 48
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 48}
+        - {x: 0, y: 29}
+        - {x: 0, y: 20}
+        - {x: 20, y: 0}
+        - {x: 28, y: 0}
+        - {x: 48, y: 20}
+        - {x: 48, y: 35}
+        - {x: 29, y: 48}
+      - - {x: 33, y: 48}
+        - {x: 33, y: 47}
+        - {x: 47, y: 33}
+        - {x: 48, y: 33}
+        - {x: 48, y: 48}
+    - name: element_grey_diamond_glossy
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 79
+        width: 48
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 48}
+        - {x: 0, y: 29}
+        - {x: 0, y: 20}
+        - {x: 20, y: 0}
+        - {x: 28, y: 0}
+        - {x: 48, y: 20}
+        - {x: 48, y: 35}
+        - {x: 29, y: 48}
+      - - {x: 32, y: 1}
+        - {x: 32, y: 0}
+        - {x: 48, y: 0}
+        - {x: 48, y: 16}
+        - {x: 47, y: 16}
+    - name: element_purple_diamond_glossy
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 52
+        width: 48
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 15, y: 0}
+        - {x: 15, y: 1}
+        - {x: 1, y: 15}
+        - {x: 0, y: 15}
+      - - {x: 13, y: 48}
+        - {x: 0, y: 29}
+        - {x: 0, y: 20}
+        - {x: 20, y: 0}
+        - {x: 28, y: 0}
+        - {x: 48, y: 20}
+        - {x: 48, y: 35}
+        - {x: 29, y: 48}
+      - - {x: 32, y: 1}
+        - {x: 32, y: 0}
+        - {x: 48, y: 0}
+        - {x: 48, y: 16}
+        - {x: 47, y: 16}
+      - - {x: 0, y: 48}
+        - {x: 0, y: 32}
+        - {x: 1, y: 32}
+        - {x: 16, y: 47}
+        - {x: 16, y: 48}
+      - - {x: 32, y: 48}
+        - {x: 32, y: 47}
+        - {x: 47, y: 32}
+        - {x: 48, y: 32}
+        - {x: 48, y: 48}
+    - name: element_red_diamond_glossy
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 24
+        width: 48
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 48}
+        - {x: 0, y: 29}
+        - {x: 0, y: 20}
+        - {x: 20, y: 0}
+        - {x: 28, y: 0}
+        - {x: 48, y: 20}
+        - {x: 48, y: 35}
+        - {x: 29, y: 48}
+      - - {x: 0, y: 48}
+        - {x: 0, y: 32}
+        - {x: 1, y: 32}
+        - {x: 16, y: 47}
+        - {x: 16, y: 48}
+    - name: element_yellow_diamond_glossy
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 79
+        width: 48
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 16, y: 0}
+        - {x: 16, y: 1}
+        - {x: 1, y: 16}
+        - {x: 0, y: 16}
+      - - {x: 13, y: 48}
+        - {x: 0, y: 29}
+        - {x: 0, y: 20}
+        - {x: 20, y: 0}
+        - {x: 28, y: 0}
+        - {x: 48, y: 20}
+        - {x: 48, y: 35}
+        - {x: 29, y: 48}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
