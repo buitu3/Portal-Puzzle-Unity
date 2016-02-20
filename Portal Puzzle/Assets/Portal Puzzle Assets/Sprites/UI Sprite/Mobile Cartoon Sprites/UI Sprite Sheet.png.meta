@@ -1,0 +1,2632 @@
+fileFormatVersion: 2
+guid: 4b980a362842e16468eb6d3fead2911d
+timeCreated: 1455872911
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Badge_01
+    21300002: Badge_02
+    21300004: Banner_01
+    21300006: Banner_02
+    21300008: Bar_01
+    21300010: Bar_02
+    21300012: Bar_03
+    21300014: Bar_04
+    21300016: Bar_05
+    21300018: Bar_06
+    21300020: Bar_07
+    21300022: Bar_08
+    21300024: Bar_BG
+    21300026: Bar_Slot
+    21300028: Bar_Slot_02
+    21300030: ButtonIcons_Accept
+    21300032: ButtonIcons_Achievement
+    21300034: ButtonIcons_BGM
+    21300036: ButtonIcons_BGMOff
+    21300038: ButtonIcons_Back
+    21300040: ButtonIcons_Camera
+    21300042: ButtonIcons_Cancel
+    21300044: ButtonIcons_Decrease
+    21300046: ButtonIcons_Down
+    21300048: ButtonIcons_DownArrow
+    21300050: ButtonIcons_Download
+    21300052: ButtonIcons_Facebook
+    21300054: ButtonIcons_Heart
+    21300056: ButtonIcons_Help
+    21300058: ButtonIcons_HighScore
+    21300060: ButtonIcons_HorizontalSlider
+    21300062: ButtonIcons_Increase
+    21300064: ButtonIcons_Info
+    21300066: ButtonIcons_LeaderBoard
+    21300068: ButtonIcons_LeftArrow
+    21300070: ButtonIcons_LevelSelect
+    21300072: ButtonIcons_Like
+    21300074: ButtonIcons_Lock
+    21300076: ButtonIcons_Mail
+    21300078: ButtonIcons_MainMenu
+    21300080: ButtonIcons_Menu
+    21300082: ButtonIcons_Multiplayer
+    21300084: ButtonIcons_Mute
+    21300086: ButtonIcons_Next
+    21300088: ButtonIcons_Pause
+    21300090: ButtonIcons_Refresh
+    21300092: ButtonIcons_Restart
+    21300094: ButtonIcons_RightArrow
+    21300096: ButtonIcons_Settings
+    21300098: ButtonIcons_Share
+    21300100: ButtonIcons_Shop
+    21300102: ButtonIcons_Skull
+    21300104: ButtonIcons_Sound
+    21300106: ButtonIcons_SpeechBubble
+    21300108: ButtonIcons_Trash
+    21300110: ButtonIcons_Twitter
+    21300112: ButtonIcons_Up
+    21300114: ButtonIcons_UpArrow
+    21300116: ButtonIcons_Upload
+    21300118: ButtonIcons_UserProfile
+    21300120: ButtonIcons_VerticalSlider
+    21300122: Button_BG
+    21300124: Button_BG_round
+    21300126: Button_BG_round_s
+    21300128: Button_BG_round_xs
+    21300130: Check_Box
+    21300132: Check_Dot
+    21300134: Check_badge
+    21300136: Check_fail
+    21300138: Check_success
+    21300140: Icon_bomb
+    21300142: Icon_coin
+    21300144: Icon_coin_2
+    21300146: Icon_coin_3
+    21300148: Icon_coin_4
+    21300150: Icon_diamond
+    21300152: Icon_diamond_2
+    21300154: Icon_diamond_3
+    21300156: Icon_energy
+    21300158: Icon_health
+    21300160: Icon_lock
+    21300162: Icon_magnet
+    21300164: Icon_poison
+    21300166: Icon_potion
+    21300168: Icon_ruby
+    21300170: Icon_ruby_2
+    21300172: Icon_ruby_3
+    21300174: Icon_shield
+    21300176: Icon_skull
+    21300178: Icon_star
+    21300180: Icon_timer
+    21300182: Level_BG
+    21300184: Light_01
+    21300186: Light_02
+    21300188: PriceTag_01
+    21300190: PriceTag_02
+    21300192: PriceTag_03
+    21300194: Ribbon_01
+    21300196: Ribbon_02
+    21300198: Ribbon_03
+    21300200: ScrollDot
+    21300202: ScrollDot_white
+    21300204: Star_Level
+    21300206: Star_LevelBG
+    21300208: Star_Result
+    21300210: Star_ResultBG
+    21300212: StoreIcon_BG
+    21300214: StoreItem_BG
+    21300216: Tab_01
+    21300218: Tab_02
+    21300220: Text_Label
+    21300222: Upgrade_Bar_BG
+    21300224: Upgrade_Dot
+    21300226: Upgrade_blue
+    21300228: Upgrade_cyan
+    21300230: Upgrade_green
+    21300232: Upgrade_grey
+    21300234: Upgrade_orange
+    21300236: Upgrade_pink
+    21300238: Upgrade_purple
+    21300240: Upgrade_red
+    21300242: Upgrade_slot
+    21300244: Upgrade_slot_square
+    21300246: Window_BG_1
+    21300248: Window_BG_2
+    21300250: Window_Field_01
+    21300252: Window_Field_02
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Badge_01
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 305
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 23, w: 24}
+      outline:
+      - - {x: -12.5, y: 24}
+        - {x: -23.5, y: 15}
+        - {x: -23.5, y: -15}
+        - {x: -15.5, y: -24}
+        - {x: 17.5, y: -24}
+        - {x: 23.5, y: -15}
+        - {x: 23.5, y: 15}
+        - {x: 11.5, y: 24}
+    - name: Badge_02
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1938
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 13, y: 15, z: 13, w: 14}
+      outline: []
+    - name: Banner_01
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 921
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 28}
+        - {x: -28, y: 23}
+        - {x: 23, y: -28}
+        - {x: 28, y: -28}
+        - {x: 28, y: 4}
+        - {x: 4, y: 28}
+    - name: Banner_02
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 863
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 28}
+        - {x: -28, y: 23}
+        - {x: 23, y: -28}
+        - {x: 28, y: -28}
+        - {x: 28, y: 4}
+        - {x: 4, y: 28}
+    - name: Bar_01
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1803
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 9, y: 8, z: 9, w: 10}
+      outline: []
+    - name: Bar_02
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 1803
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 9, y: 8, z: 9, w: 10}
+      outline: []
+    - name: Bar_03
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1023
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 9, y: 8, z: 9, w: 10}
+      outline: []
+    - name: Bar_04
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1023
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 9, y: 8, z: 9, w: 10}
+      outline: []
+    - name: Bar_05
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1051
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 9, y: 8, z: 9, w: 10}
+      outline: []
+    - name: Bar_06
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 1051
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 9, y: 8, z: 9, w: 10}
+      outline: []
+    - name: Bar_07
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1003
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 9, y: 8, z: 9, w: 10}
+      outline: []
+    - name: Bar_08
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1003
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 9, y: 8, z: 9, w: 10}
+      outline: []
+    - name: Bar_BG
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1071
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 11, y: 15, z: 11, w: 11}
+      outline:
+      - - {x: -19, y: 19}
+        - {x: -19, y: -19}
+        - {x: 18, y: -19}
+        - {x: 19, y: -17}
+        - {x: 19, y: 19}
+    - name: Bar_Slot
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1111
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 15, y: 20, z: 15, w: 16}
+      outline:
+      - - {x: -19, y: 21}
+        - {x: -19, y: -19}
+        - {x: -16, y: -21}
+        - {x: 15, y: -21}
+        - {x: 19, y: -17}
+        - {x: 19, y: 21}
+    - name: Bar_Slot_02
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1825
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 10, z: 10, w: 10}
+      outline: []
+    - name: ButtonIcons_Accept
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1290
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 31.5}
+        - {x: -27, y: 14.5}
+        - {x: -40, y: 9.5}
+        - {x: -40, y: -1.5}
+        - {x: -17, y: -29.5}
+        - {x: -3, y: -29.5}
+        - {x: 33, y: 5.5}
+        - {x: 33, y: 31.5}
+    - name: ButtonIcons_Achievement
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1157
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: -38.5}
+        - {x: 30, y: 27.5}
+        - {x: 25, y: 41.5}
+        - {x: -34, y: 41.5}
+        - {x: -34, y: -38.5}
+        - {x: -12, y: -38.5}
+        - {x: -7, y: -32.5}
+        - {x: -5, y: -27.5}
+        - {x: 5, y: -38.5}
+    - name: ButtonIcons_BGM
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1118
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 42.5}
+        - {x: -30, y: 23.5}
+        - {x: -30, y: -35.5}
+        - {x: -29, y: -36.5}
+        - {x: 7, y: -36.5}
+        - {x: 26, y: 4.5}
+        - {x: 26, y: 42.5}
+    - name: ButtonIcons_BGMOff
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1100
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 18.5}
+        - {x: 26, y: 21.5}
+        - {x: 27, y: 29.5}
+        - {x: 24, y: 42.5}
+        - {x: -6, y: 42.5}
+        - {x: -39, y: 15.5}
+        - {x: -39, y: -30.5}
+        - {x: -35, y: -34.5}
+        - {x: -26, y: -36.5}
+        - {x: 7, y: -36.5}
+        - {x: 41, y: 11.5}
+        - {x: 41, y: 22.5}
+        - {x: 34, y: 25.5}
+    - name: ButtonIcons_Back
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 985
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 6.5}
+        - {x: -37, y: 0.5}
+        - {x: -35, y: -4.5}
+        - {x: 16, y: -33.5}
+        - {x: 22, y: -33.5}
+        - {x: 24, y: -32.5}
+        - {x: 24, y: -20.5}
+        - {x: 18, y: 37.5}
+        - {x: 17, y: 40.5}
+        - {x: 11, y: 40.5}
+        - {x: 7, y: 38.5}
+    - name: ButtonIcons_Camera
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 967
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 34.5}
+        - {x: -33, y: 25.5}
+        - {x: -38, y: 21.5}
+        - {x: -38, y: -21.5}
+        - {x: -36, y: -24.5}
+        - {x: 36, y: -24.5}
+        - {x: 36, y: 28.5}
+        - {x: 26, y: 34.5}
+      - - {x: -11, y: 13.5}
+        - {x: -14, y: 10.5}
+        - {x: -14, y: -9.5}
+        - {x: -8, y: -11.5}
+        - {x: 7, y: -11.5}
+        - {x: 11, y: -4.5}
+        - {x: 11, y: 11.5}
+        - {x: 7, y: 13.5}
+    - name: ButtonIcons_Cancel
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1086
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35.5}
+        - {x: -33, y: -29.5}
+        - {x: 29, y: -29.5}
+        - {x: 33, y: -25.5}
+        - {x: 33, y: 26.5}
+        - {x: 30, y: 35.5}
+    - name: ButtonIcons_Decrease
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1024
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 14.5}
+        - {x: -39, y: -2.5}
+        - {x: -35, y: -7.5}
+        - {x: -4, y: -7.5}
+        - {x: 38, y: -6.5}
+        - {x: 40, y: 2.5}
+        - {x: 40, y: 14.5}
+    - name: ButtonIcons_Down
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1086
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 26.5}
+        - {x: -40, y: 20.5}
+        - {x: -40, y: 14.5}
+        - {x: -33, y: 1.5}
+        - {x: -5, y: -33.5}
+        - {x: 2, y: -33.5}
+        - {x: 4, y: -32.5}
+        - {x: 31, y: 10.5}
+        - {x: 34, y: 20.5}
+        - {x: 34, y: 26.5}
+    - name: ButtonIcons_DownArrow
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 984
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 39.5}
+        - {x: -36, y: 31.5}
+        - {x: -36, y: 4.5}
+        - {x: -10, y: -39.5}
+        - {x: 0, y: -39.5}
+        - {x: 36, y: -1.5}
+        - {x: 36, y: 29.5}
+        - {x: 32, y: 39.5}
+    - name: ButtonIcons_Download
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 852
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 0.5}
+        - {x: 30, y: 14.5}
+        - {x: 20, y: 40.5}
+        - {x: -25, y: 40.5}
+        - {x: -33, y: 36.5}
+        - {x: -33, y: -32.5}
+        - {x: 33, y: -32.5}
+        - {x: 33, y: 0.5}
+    - name: ButtonIcons_Facebook
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 834
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 13.5}
+        - {x: 21, y: 23.5}
+        - {x: 21, y: 36.5}
+        - {x: 20, y: 41.5}
+        - {x: -6, y: 41.5}
+        - {x: -23, y: 22.5}
+        - {x: -23, y: -8.5}
+        - {x: -12, y: -39.5}
+        - {x: 5, y: -39.5}
+        - {x: 20, y: -6.5}
+        - {x: 21, y: -1.5}
+        - {x: 21, y: 12.5}
+    - name: ButtonIcons_Heart
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 701
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 29.5}
+        - {x: -30, y: 28.5}
+        - {x: -35, y: 16.5}
+        - {x: -35, y: -24.5}
+        - {x: -14, y: -32.5}
+        - {x: 15, y: -32.5}
+        - {x: 33, y: -8.5}
+        - {x: 33, y: 22.5}
+        - {x: 29, y: 29.5}
+    - name: ButtonIcons_Help
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 953
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -36.5}
+        - {x: -10, y: -37.5}
+        - {x: 8, y: -37.5}
+        - {x: 8, y: -16.5}
+        - {x: -15, y: -16.5}
+      - - {x: -31, y: 33.5}
+        - {x: -33, y: 31.5}
+        - {x: -33, y: -6.5}
+        - {x: -24, y: -16.5}
+        - {x: 4, y: -16.5}
+        - {x: 24, y: -5.5}
+        - {x: 28, y: 8.5}
+        - {x: 28, y: 33.5}
+    - name: ButtonIcons_HighScore
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 953
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 33.5}
+        - {x: -37, y: -9.5}
+        - {x: -27, y: -35.5}
+        - {x: 20, y: -35.5}
+        - {x: 26, y: -34.5}
+        - {x: 34, y: 0.5}
+        - {x: 34, y: 30.5}
+        - {x: 32, y: 33.5}
+    - name: ButtonIcons_HorizontalSlider
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 891
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 34.5}
+        - {x: -10, y: 34.5}
+        - {x: -42, y: 12.5}
+        - {x: -42, y: -0.5}
+        - {x: -20, y: -28.5}
+        - {x: -4, y: -28.5}
+        - {x: -3, y: -11.5}
+        - {x: -3, y: 32.5}
+      - - {x: 8, y: 35.5}
+        - {x: 4, y: 35.5}
+        - {x: 1, y: 34.5}
+        - {x: 1, y: -27.5}
+        - {x: 3, y: -28.5}
+        - {x: 7, y: -27.5}
+        - {x: 26, y: -11.5}
+        - {x: 39, y: 0.5}
+        - {x: 39, y: 6.5}
+    - name: ButtonIcons_Increase
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 851
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -32.5}
+        - {x: -36, y: -36.5}
+        - {x: 25, y: -36.5}
+        - {x: 39, y: -29.5}
+        - {x: 39, y: 15.5}
+        - {x: 17, y: 41.5}
+        - {x: -30, y: 41.5}
+        - {x: -40, y: 24.5}
+    - name: ButtonIcons_Info
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 719
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 44.5}
+        - {x: -42, y: 29.5}
+        - {x: -42, y: -19.5}
+        - {x: -37, y: -37.5}
+        - {x: 41, y: -37.5}
+        - {x: 41, y: 33.5}
+        - {x: 16, y: 44.5}
+    - name: ButtonIcons_LeaderBoard
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 820
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 36.5}
+        - {x: -42, y: 2.5}
+        - {x: -42, y: -25.5}
+        - {x: 40, y: -25.5}
+        - {x: 41, y: -24.5}
+        - {x: 41, y: 26.5}
+        - {x: 34, y: 36.5}
+    - name: ButtonIcons_LeftArrow
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 820
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 37.5}
+        - {x: -5, y: 37.5}
+        - {x: -40, y: 7.5}
+        - {x: -43, y: 1.5}
+        - {x: -43, y: -4.5}
+        - {x: 8, y: -33.5}
+        - {x: 20, y: -33.5}
+        - {x: 35, y: -5.5}
+        - {x: 35, y: 26.5}
+    - name: ButtonIcons_LevelSelect
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 758
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: -10.5}
+        - {x: -34, y: -31.5}
+        - {x: -15, y: -31.5}
+        - {x: -12, y: -29.5}
+        - {x: -12, y: -10.5}
+      - - {x: -11, y: -10.5}
+        - {x: -12, y: -11.5}
+        - {x: -12, y: -31.5}
+        - {x: 29, y: -31.5}
+        - {x: 33, y: -29.5}
+        - {x: 33, y: -10.5}
+      - - {x: -34, y: 11.5}
+        - {x: -34, y: -6.5}
+        - {x: -33, y: -9.5}
+        - {x: -16, y: -9.5}
+        - {x: -12, y: -8.5}
+        - {x: -12, y: 11.5}
+      - - {x: 32, y: 11.5}
+        - {x: -12, y: 11.5}
+        - {x: -12, y: -9.5}
+        - {x: 31, y: -9.5}
+        - {x: 33, y: -0.5}
+        - {x: 33, y: 8.5}
+      - - {x: -13, y: 34.5}
+        - {x: -32, y: 34.5}
+        - {x: -34, y: 32.5}
+        - {x: -34, y: 14.5}
+        - {x: -30, y: 12.5}
+        - {x: -26, y: 12.5}
+        - {x: -14, y: 14.5}
+        - {x: -12, y: 15.5}
+        - {x: -12, y: 31.5}
+      - - {x: 32, y: 34.5}
+        - {x: -10, y: 34.5}
+        - {x: -12, y: 32.5}
+        - {x: -12, y: 14.5}
+        - {x: -10, y: 12.5}
+        - {x: 31, y: 12.5}
+        - {x: 33, y: 20.5}
+        - {x: 33, y: 31.5}
+    - name: ButtonIcons_Like
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 718
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 38.5}
+        - {x: -17, y: 25.5}
+        - {x: -17, y: -26.5}
+        - {x: -16, y: -29.5}
+        - {x: 31, y: -29.5}
+        - {x: 33, y: -28.5}
+        - {x: 36, y: -17.5}
+        - {x: 36, y: 22.5}
+        - {x: 8, y: 38.5}
+      - - {x: -36, y: 14.5}
+        - {x: -37, y: 10.5}
+        - {x: -37, y: -25.5}
+        - {x: -20, y: -25.5}
+        - {x: -19, y: -13.5}
+        - {x: -19, y: 13.5}
+        - {x: -21, y: 14.5}
+    - name: ButtonIcons_Lock
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 586
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 39.5}
+        - {x: -24, y: 32.5}
+        - {x: -28, y: 3.5}
+        - {x: -28, y: -26.5}
+        - {x: -19, y: -34.5}
+        - {x: 21, y: -34.5}
+        - {x: 28, y: -27.5}
+        - {x: 28, y: 33.5}
+        - {x: 15, y: 39.5}
+    - name: ButtonIcons_Mail
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 568
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 27.5}
+        - {x: -36, y: 27.5}
+        - {x: -37, y: 24.5}
+        - {x: -37, y: -5.5}
+        - {x: -34, y: -26.5}
+        - {x: 31, y: -26.5}
+        - {x: 34, y: -24.5}
+        - {x: 35, y: 1.5}
+        - {x: 35, y: 26.5}
+    - name: ButtonIcons_MainMenu
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 435
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 40.5}
+        - {x: -39, y: 12.5}
+        - {x: -39, y: 4.5}
+        - {x: -30, y: -31.5}
+        - {x: 28, y: -31.5}
+        - {x: 37, y: -0.5}
+        - {x: 37, y: 16.5}
+        - {x: 25, y: 40.5}
+    - name: ButtonIcons_Menu
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 687
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: -10.5}
+        - {x: -36, y: -13.5}
+        - {x: -36, y: -29.5}
+        - {x: -19, y: -29.5}
+        - {x: -16, y: -26.5}
+        - {x: -16, y: -10.5}
+      - - {x: -15, y: -12.5}
+        - {x: -15, y: -22.5}
+        - {x: -14, y: -26.5}
+        - {x: 34, y: -26.5}
+        - {x: 36, y: -22.5}
+        - {x: 36, y: -13.5}
+        - {x: 34, y: -12.5}
+      - - {x: -34, y: 10.5}
+        - {x: -36, y: 8.5}
+        - {x: -36, y: -8.5}
+        - {x: -18, y: -8.5}
+        - {x: -16, y: -6.5}
+        - {x: -16, y: 8.5}
+        - {x: -17, y: 10.5}
+      - - {x: -14, y: 9.5}
+        - {x: -15, y: 6.5}
+        - {x: -15, y: -3.5}
+        - {x: -13, y: -5.5}
+        - {x: 12, y: -5.5}
+        - {x: 33, y: -4.5}
+        - {x: 36, y: -1.5}
+        - {x: 36, y: 5.5}
+        - {x: 34, y: 9.5}
+      - - {x: -16, y: 30.5}
+        - {x: -36, y: 30.5}
+        - {x: -36, y: 12.5}
+        - {x: -33, y: 11.5}
+        - {x: -19, y: 11.5}
+        - {x: -16, y: 14.5}
+      - - {x: -15, y: 28.5}
+        - {x: -15, y: 18.5}
+        - {x: -14, y: 14.5}
+        - {x: 17, y: 14.5}
+        - {x: 34, y: 16.5}
+        - {x: 36, y: 17.5}
+        - {x: 36, y: 25.5}
+        - {x: 34, y: 28.5}
+    - name: ButtonIcons_Multiplayer
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 625
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 37.5}
+        - {x: -31, y: 37.5}
+        - {x: -39, y: 36.5}
+        - {x: -40, y: 30.5}
+        - {x: -40, y: -27.5}
+        - {x: -21, y: -30.5}
+        - {x: 40, y: -30.5}
+        - {x: 40, y: 19.5}
+        - {x: 33, y: 27.5}
+    - name: ButtonIcons_Mute
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 585
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 38.5}
+        - {x: 5, y: 35.5}
+        - {x: -14, y: 18.5}
+        - {x: -14, y: 3.5}
+        - {x: -14, y: 18.5}
+        - {x: -15, y: 22.5}
+        - {x: -36, y: 18.5}
+        - {x: -36, y: -35.5}
+        - {x: 26, y: -35.5}
+        - {x: 33, y: -9.5}
+        - {x: 33, y: 27.5}
+        - {x: 27, y: 38.5}
+    - name: ButtonIcons_Next
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 453
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -33.5}
+        - {x: -12, y: -33.5}
+        - {x: 37, y: -12.5}
+        - {x: 37, y: 8.5}
+        - {x: 5, y: 40.5}
+        - {x: -17, y: 40.5}
+        - {x: -23, y: 33.5}
+    - name: ButtonIcons_Pause
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 302
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 31.5}
+        - {x: -30, y: 30.5}
+        - {x: -30, y: -7.5}
+        - {x: -28, y: -25.5}
+        - {x: -26, y: -29.5}
+        - {x: -9, y: -29.5}
+        - {x: -5, y: -28.5}
+        - {x: -5, y: 30.5}
+        - {x: -6, y: 31.5}
+      - - {x: 3, y: 31.5}
+        - {x: 0, y: 28.5}
+        - {x: 0, y: 3.5}
+        - {x: 1, y: -28.5}
+        - {x: 5, y: -29.5}
+        - {x: 26, y: -29.5}
+        - {x: 26, y: 31.5}
+    - name: ButtonIcons_Refresh
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 687
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 36.5}
+        - {x: -31, y: 36.5}
+        - {x: -37, y: 20.5}
+        - {x: -37, y: 1.5}
+        - {x: -36, y: -5.5}
+        - {x: -33, y: -8.5}
+        - {x: -30, y: -8.5}
+        - {x: -22, y: -4.5}
+        - {x: -28, y: -7.5}
+        - {x: -30, y: -9.5}
+        - {x: -31, y: -16.5}
+        - {x: -29, y: -31.5}
+        - {x: -24, y: -34.5}
+        - {x: -6, y: -34.5}
+        - {x: 19, y: -30.5}
+        - {x: 33, y: -14.5}
+        - {x: 33, y: 33.5}
+    - name: ButtonIcons_Restart
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 596
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 30.5}
+        - {x: -38, y: 27.5}
+        - {x: -38, y: -0.5}
+        - {x: -34, y: -11.5}
+        - {x: -15, y: -32.5}
+        - {x: 18, y: -32.5}
+        - {x: 22, y: -31.5}
+        - {x: 32, y: -16.5}
+        - {x: 32, y: 24.5}
+        - {x: 30, y: 30.5}
+    - name: ButtonIcons_RightArrow
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 554
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 37.5}
+        - {x: -36, y: -13.5}
+        - {x: -27, y: -33.5}
+        - {x: -5, y: -33.5}
+        - {x: 41, y: -3.5}
+        - {x: 41, y: 4.5}
+        - {x: 10, y: 37.5}
+    - name: ButtonIcons_Settings
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 492
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 37.5}
+        - {x: -4, y: 37.5}
+        - {x: -34, y: 29.5}
+        - {x: -37, y: 13.5}
+        - {x: -37, y: -18.5}
+        - {x: -32, y: -36.5}
+        - {x: 34, y: -36.5}
+        - {x: 36, y: -27.5}
+        - {x: 36, y: 7.5}
+        - {x: 25, y: 32.5}
+    - name: ButtonIcons_Share
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 452
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -15.5}
+        - {x: -25, y: -32.5}
+        - {x: 26, y: -32.5}
+        - {x: 26, y: 37.5}
+        - {x: -7, y: 37.5}
+        - {x: -40, y: 25.5}
+    - name: ButtonIcons_Shop
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 320
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 14.5}
+        - {x: -23, y: 29.5}
+        - {x: -42, y: 29.5}
+        - {x: -42, y: 15.5}
+        - {x: -23, y: -35.5}
+        - {x: 37, y: -35.5}
+        - {x: 37, y: 12.5}
+        - {x: 34, y: 18.5}
+    - name: ButtonIcons_Skull
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 554
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 36.5}
+        - {x: -39, y: 22.5}
+        - {x: -39, y: -2.5}
+        - {x: -24, y: -33.5}
+        - {x: 19, y: -33.5}
+        - {x: 36, y: -18.5}
+        - {x: 36, y: 32.5}
+        - {x: 22, y: 36.5}
+    - name: ButtonIcons_Sound
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 463
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 37.5}
+        - {x: 9, y: 37.5}
+        - {x: -14, y: 20.5}
+        - {x: -14, y: -27.5}
+        - {x: 9, y: -35.5}
+        - {x: 27, y: -35.5}
+        - {x: 33, y: -16.5}
+        - {x: 33, y: 15.5}
+        - {x: 22, y: 36.5}
+      - - {x: -36, y: -4.5}
+        - {x: -34, y: -16.5}
+        - {x: -33, y: -19.5}
+        - {x: -14, y: -19.5}
+        - {x: -14, y: 20.5}
+        - {x: -28, y: 20.5}
+        - {x: -36, y: 19.5}
+    - name: ButtonIcons_SpeechBubble
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 421
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 30.5}
+        - {x: -36, y: 27.5}
+        - {x: -36, y: -29.5}
+        - {x: 32, y: -29.5}
+        - {x: 35, y: -14.5}
+        - {x: 35, y: 26.5}
+        - {x: 24, y: 30.5}
+    - name: ButtonIcons_Trash
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 359
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 39.5}
+        - {x: -30, y: 30.5}
+        - {x: -31, y: 25.5}
+        - {x: -31, y: 3.5}
+        - {x: -27, y: -34.5}
+        - {x: -26, y: -35.5}
+        - {x: 26, y: -35.5}
+        - {x: 27, y: -33.5}
+        - {x: 27, y: 39.5}
+    - name: ButtonIcons_Twitter
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 319
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 27.5}
+        - {x: -33, y: -32.5}
+        - {x: -29, y: -33.5}
+        - {x: 19, y: -33.5}
+        - {x: 35, y: -18.5}
+        - {x: 41, y: 10.5}
+        - {x: 41, y: 27.5}
+    - name: ButtonIcons_Up
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 187
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 36.5}
+        - {x: -37, y: 0.5}
+        - {x: -37, y: -24.5}
+        - {x: -2, y: -24.5}
+        - {x: 37, y: -18.5}
+        - {x: 37, y: -10.5}
+        - {x: 12, y: 36.5}
+    - name: ButtonIcons_UpArrow
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 169
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 43.5}
+        - {x: -36, y: 2.5}
+        - {x: -36, y: -17.5}
+        - {x: -24, y: -36.5}
+        - {x: 17, y: -36.5}
+        - {x: 36, y: -10.5}
+        - {x: 36, y: 10.5}
+        - {x: 1, y: 43.5}
+    - name: ButtonIcons_Upload
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 36
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 0.5}
+        - {x: -34, y: -27.5}
+        - {x: -33, y: -32.5}
+        - {x: 33, y: -32.5}
+        - {x: 33, y: 0.5}
+      - - {x: -5, y: 43.5}
+        - {x: -21, y: 16.5}
+        - {x: -25, y: 7.5}
+        - {x: -25, y: 1.5}
+        - {x: -13, y: -14.5}
+        - {x: 13, y: -14.5}
+        - {x: 28, y: 1.5}
+        - {x: 28, y: 10.5}
+        - {x: 1, y: 43.5}
+    - name: ButtonIcons_UserProfile
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 421
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 6.5}
+        - {x: -13, y: 6.5}
+        - {x: -19, y: -4.5}
+        - {x: -23, y: -22.5}
+        - {x: -23, y: -34.5}
+        - {x: 16, y: -34.5}
+        - {x: 17, y: -33.5}
+        - {x: 17, y: -25.5}
+        - {x: 12, y: 3.5}
+      - - {x: -12, y: 37.5}
+        - {x: -18, y: 33.5}
+        - {x: -18, y: 11.5}
+        - {x: -10, y: 5.5}
+        - {x: 9, y: 5.5}
+        - {x: 13, y: 14.5}
+        - {x: 13, y: 33.5}
+        - {x: 9, y: 37.5}
+    - name: ButtonIcons_VerticalSlider
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 330
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 1.5}
+        - {x: -33, y: -0.5}
+        - {x: -33, y: -13.5}
+        - {x: -8, y: -37.5}
+        - {x: 13, y: -37.5}
+        - {x: 31, y: -7.5}
+        - {x: 31, y: 0.5}
+        - {x: 21, y: 1.5}
+      - - {x: 1, y: 43.5}
+        - {x: -6, y: 43.5}
+        - {x: -33, y: 12.5}
+        - {x: -33, y: 5.5}
+        - {x: 30, y: 5.5}
+        - {x: 30, y: 11.5}
+        - {x: 28, y: 17.5}
+    - name: Button_BG
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1717
+        width: 74
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 28, y: 34, z: 28, w: 28}
+      outline:
+      - - {x: -35, y: 41}
+        - {x: -37, y: 40}
+        - {x: -37, y: -41}
+        - {x: 37, y: -41}
+        - {x: 37, y: 38}
+        - {x: 30, y: 41}
+    - name: Button_BG_round
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 54
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 65.5}
+        - {x: -64, y: 52.5}
+        - {x: -64, y: -57.5}
+        - {x: -55, y: -65.5}
+        - {x: 35, y: -65.5}
+        - {x: 64, y: -54.5}
+        - {x: 64, y: 49.5}
+        - {x: 38, y: 65.5}
+    - name: Button_BG_round_s
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 947
+        width: 100
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 42}
+        - {x: 32, y: 51}
+        - {x: -25, y: 51}
+        - {x: -40, y: 48}
+        - {x: -50, y: 36}
+        - {x: -50, y: -33}
+        - {x: -44, y: -51}
+        - {x: 26, y: -51}
+        - {x: 37, y: -45}
+        - {x: 50, y: -31}
+        - {x: 50, y: 25}
+    - name: Button_BG_round_xs
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 398
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 23}
+        - {x: -22.5, y: 15}
+        - {x: -22.5, y: -17}
+        - {x: -15.5, y: -23}
+        - {x: 15.5, y: -23}
+        - {x: 22.5, y: -15}
+        - {x: 22.5, y: 15}
+        - {x: 14.5, y: 23}
+    - name: Check_Box
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 546
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 23, w: 24}
+      outline:
+      - - {x: -13.5, y: 24}
+        - {x: -23.5, y: 13}
+        - {x: -23.5, y: -17}
+        - {x: -18.5, y: -24}
+        - {x: 23.5, y: -24}
+        - {x: 23.5, y: 18}
+        - {x: 16.5, y: 24}
+    - name: Check_Dot
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 496
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 23, y: 25, z: 23, w: 23}
+      outline:
+      - - {x: -11.5, y: 16}
+        - {x: -15.5, y: 7}
+        - {x: -15.5, y: -10}
+        - {x: -10.5, y: -13}
+        - {x: 5.5, y: -13}
+        - {x: 14.5, y: -9}
+        - {x: 14.5, y: 10}
+        - {x: 5.5, y: 16}
+    - name: Check_badge
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 446
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 21}
+        - {x: -15.5, y: 21}
+        - {x: -16.5, y: 16}
+        - {x: -16.5, y: -16}
+        - {x: 17.5, y: -16}
+        - {x: 17.5, y: 16}
+    - name: Check_fail
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 255
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 16}
+        - {x: -14.5, y: 16}
+        - {x: -14.5, y: -15}
+        - {x: 14.5, y: -15}
+        - {x: 14.5, y: 15}
+    - name: Check_success
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 205
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 15}
+        - {x: -18.5, y: 9}
+        - {x: -18.5, y: -1}
+        - {x: -9.5, y: -13}
+        - {x: 1.5, y: -13}
+        - {x: 15.5, y: 0}
+        - {x: 15.5, y: 15}
+    - name: Icon_bomb
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 715
+        width: 50
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 39}
+        - {x: -25, y: 13}
+        - {x: -25, y: -33}
+        - {x: -15, y: -39}
+        - {x: 17, y: -39}
+        - {x: 25, y: -28}
+        - {x: 25, y: 38}
+        - {x: 22, y: 39}
+    - name: Icon_coin
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1162
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 34}
+        - {x: -31, y: 21}
+        - {x: -31, y: -23}
+        - {x: -21, y: -34}
+        - {x: 21, y: -34}
+        - {x: 31, y: -31}
+        - {x: 31, y: 23}
+        - {x: 19, y: 34}
+    - name: Icon_coin_2
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1051
+        width: 60
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 22}
+        - {x: -30, y: 16}
+        - {x: -30, y: -15}
+        - {x: -25, y: -22}
+        - {x: 29, y: -22}
+        - {x: 30, y: -17}
+        - {x: 30, y: 22}
+    - name: Icon_coin_3
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1456
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 25.5}
+        - {x: -14, y: 25.5}
+        - {x: -32, y: 9.5}
+        - {x: -32, y: -20.5}
+        - {x: -28, y: -25.5}
+        - {x: 32, y: -25.5}
+        - {x: 32, y: 12.5}
+        - {x: 26, y: 22.5}
+    - name: Icon_coin_4
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1579
+        width: 67
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 25}
+        - {x: -33.5, y: 19}
+        - {x: -33.5, y: -25}
+        - {x: 22.5, y: -25}
+        - {x: 33.5, y: -15}
+        - {x: 33.5, y: 20}
+        - {x: 18.5, y: 25}
+    - name: Icon_diamond
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1300
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: -1}
+        - {x: -16.5, y: -33}
+        - {x: 2.5, y: -33}
+        - {x: 31.5, y: -13}
+        - {x: 31.5, y: 19}
+        - {x: 24.5, y: 33}
+        - {x: -20.5, y: 33}
+        - {x: -31.5, y: 25}
+    - name: Icon_diamond_2
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1412
+        width: 64
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 21}
+        - {x: -32, y: 10}
+        - {x: -32, y: -21}
+        - {x: 19, y: -21}
+        - {x: 32, y: -11}
+        - {x: 32, y: 21}
+    - name: Icon_diamond_3
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1631
+        width: 72
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 20}
+        - {x: -36, y: -18}
+        - {x: -29, y: -20}
+        - {x: 28, y: -20}
+        - {x: 36, y: -18}
+        - {x: 36, y: 20}
+    - name: Icon_energy
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1155
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 31}
+        - {x: -19.5, y: -31}
+        - {x: -9.5, y: -31}
+        - {x: 19.5, y: -16}
+        - {x: 19.5, y: 31}
+    - name: Icon_health
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1109
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 29}
+        - {x: -29, y: -15}
+        - {x: -20, y: -29}
+        - {x: 6, y: -29}
+        - {x: 29, y: -16}
+        - {x: 29, y: 27}
+        - {x: 27, y: 29}
+    - name: Icon_lock
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 643
+        width: 50
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 35}
+        - {x: -25, y: 29}
+        - {x: -25, y: -35}
+        - {x: 25, y: -35}
+        - {x: 25, y: 25}
+        - {x: 19, y: 35}
+    - name: Icon_magnet
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 979
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 30}
+        - {x: -28, y: -30}
+        - {x: 28, y: -30}
+        - {x: 28, y: 30}
+    - name: Icon_poison
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 355
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 35}
+        - {x: -24, y: 35}
+        - {x: -24, y: -26}
+        - {x: -18, y: -35}
+        - {x: 16, y: -35}
+        - {x: 24, y: -32}
+        - {x: 24, y: 11}
+    - name: Icon_potion
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 133
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 35}
+        - {x: -23, y: -35}
+        - {x: 23, y: -35}
+        - {x: 23, y: 7}
+        - {x: 21, y: 21}
+        - {x: 13, y: 35}
+    - name: Icon_ruby
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1232
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: -1}
+        - {x: -16.5, y: -33}
+        - {x: 2.5, y: -33}
+        - {x: 31.5, y: -13}
+        - {x: 31.5, y: 19}
+        - {x: 24.5, y: 33}
+        - {x: -20.5, y: 33}
+        - {x: -31.5, y: 25}
+    - name: Icon_ruby_2
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1368
+        width: 64
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 21}
+        - {x: -32, y: 7}
+        - {x: -32, y: -21}
+        - {x: 23, y: -21}
+        - {x: 32, y: -11}
+        - {x: 32, y: 15}
+        - {x: 30, y: 21}
+    - name: Icon_ruby_3
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1673
+        width: 74
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 21}
+        - {x: -36, y: 11}
+        - {x: -37, y: 6}
+        - {x: -37, y: -21}
+        - {x: 31, y: -21}
+        - {x: 37, y: -16}
+        - {x: 37, y: 12}
+        - {x: 15, y: 21}
+    - name: Icon_shield
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 795
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 33}
+        - {x: -27, y: 29}
+        - {x: -27, y: -25}
+        - {x: -16, y: -33}
+        - {x: 12, y: -33}
+        - {x: 24, y: -21}
+        - {x: 27, y: -9}
+        - {x: 27, y: 33}
+    - name: Icon_skull
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1169
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 31}
+        - {x: -29, y: 29}
+        - {x: -29, y: -22}
+        - {x: -21, y: -31}
+        - {x: 29, y: -31}
+        - {x: 29, y: 31}
+    - name: Icon_star
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1509
+        width: 65
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 34}
+        - {x: -32.5, y: 22}
+        - {x: -32.5, y: -34}
+        - {x: 32.5, y: -34}
+        - {x: 32.5, y: 21}
+        - {x: 15.5, y: 34}
+    - name: Icon_timer
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1041
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 33}
+        - {x: -28, y: 27}
+        - {x: -28, y: -24}
+        - {x: -26, y: -33}
+        - {x: 24, y: -33}
+        - {x: 28, y: -26}
+        - {x: 28, y: 28}
+        - {x: 27, y: 33}
+    - name: Level_BG
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 729
+        width: 90
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 14, z: 0, w: 78}
+      outline:
+      - - {x: 41, y: 57}
+        - {x: -42, y: 57}
+        - {x: -45, y: 56}
+        - {x: -45, y: -56}
+        - {x: -44, y: -57}
+        - {x: 45, y: -57}
+        - {x: 45, y: 54}
+        - {x: 42, y: 56}
+    - name: Light_01
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1521
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 142, y: -87}
+        - {x: 142, y: 42}
+        - {x: 133, y: 50}
+        - {x: 121, y: 49}
+        - {x: 125, y: 69}
+        - {x: 111, y: 94}
+        - {x: 97, y: 86}
+        - {x: 95, y: 106}
+        - {x: 85, y: 119}
+        - {x: 70, y: 125}
+        - {x: 61, y: 113}
+        - {x: 54, y: 137}
+        - {x: 36, y: 145}
+        - {x: -26, y: 145}
+        - {x: -27, y: 133}
+        - {x: -48, y: 138}
+        - {x: -60, y: 135}
+        - {x: -74, y: 126}
+        - {x: -84, y: 145}
+        - {x: -147, y: 145}
+        - {x: -147, y: -74}
+        - {x: -102, y: -143}
+        - {x: 65, y: -143}
+        - {x: 73, y: -123}
+        - {x: 71, y: -117}
+        - {x: 97, y: -128}
+    - name: Light_02
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1219
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: 12}
+        - {x: 105, y: 47}
+        - {x: 104, y: 50}
+        - {x: 101, y: 51}
+        - {x: 86, y: 82}
+        - {x: 80, y: 84}
+        - {x: 81, y: 113}
+        - {x: -103, y: 113}
+        - {x: -115, y: 74}
+        - {x: -115, y: -13}
+        - {x: -75, y: -14}
+        - {x: -105, y: -47}
+        - {x: -100, y: -62}
+        - {x: -77, y: -94}
+        - {x: -57, y: -113}
+        - {x: 106, y: -113}
+        - {x: 115, y: -100}
+        - {x: 115, y: 12}
+        - {x: 114, y: 13}
+    - name: PriceTag_01
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1909
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 12, z: 10, w: 13}
+      outline: []
+    - name: PriceTag_02
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1880
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 12, z: 10, w: 13}
+      outline: []
+    - name: PriceTag_03
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1851
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 12, z: 10, w: 13}
+      outline: []
+    - name: Ribbon_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1423
+        width: 644
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 322, y: 0, z: 322, w: 0}
+      outline:
+      - - {x: 233, y: -71}
+        - {x: 303, y: -71}
+        - {x: 303, y: -70}
+        - {x: 297, y: -61}
+        - {x: 286, y: -47}
+        - {x: 276, y: -35}
+        - {x: 268, y: -27}
+        - {x: 322, y: -6}
+        - {x: 322, y: 10}
+        - {x: 236, y: 62}
+        - {x: 160, y: 71}
+        - {x: -151, y: 71}
+        - {x: -237, y: 61}
+        - {x: -322, y: 10}
+        - {x: -322, y: -9}
+        - {x: -303, y: -69}
+        - {x: -303, y: -71}
+        - {x: -253, y: -71}
+        - {x: -161, y: -60}
+        - {x: 163, y: -32}
+        - {x: 158, y: -61}
+    - name: Ribbon_02
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1808
+        width: 644
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 308, y: -119.5}
+        - {x: 322, y: -64.5}
+        - {x: 322, y: -30.5}
+        - {x: 240, y: 53.5}
+        - {x: 205, y: 34.5}
+        - {x: 201, y: 29.5}
+        - {x: 192, y: 18.5}
+        - {x: 202, y: 32.5}
+        - {x: 210, y: 58.5}
+        - {x: 205, y: 100.5}
+        - {x: 198, y: 96.5}
+        - {x: 153, y: 71.5}
+        - {x: 149, y: 66.5}
+        - {x: 149, y: 62.5}
+        - {x: 154, y: 55.5}
+        - {x: 106, y: 101.5}
+        - {x: 51, y: 119.5}
+        - {x: -45, y: 119.5}
+        - {x: -113, y: 99.5}
+        - {x: -151, y: 48.5}
+        - {x: -150, y: 40.5}
+        - {x: -150, y: 38.5}
+        - {x: -151, y: 59.5}
+        - {x: -159, y: 68.5}
+        - {x: -205, y: 91.5}
+        - {x: -207, y: 65.5}
+        - {x: -203, y: 30.5}
+        - {x: -202, y: 25.5}
+        - {x: -200, y: 23.5}
+        - {x: -196, y: 21.5}
+        - {x: -190, y: 15.5}
+        - {x: -205, y: 26.5}
+        - {x: -204, y: 31.5}
+        - {x: -212, y: 41.5}
+        - {x: -246, y: 41.5}
+        - {x: -322, y: -37.5}
+        - {x: -322, y: -105.5}
+        - {x: -306, y: -119.5}
+        - {x: -187, y: -119.5}
+        - {x: -165, y: -108.5}
+        - {x: -162, y: -107.5}
+        - {x: 130, y: -119.5}
+    - name: Ribbon_03
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1567
+        width: 644
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 308, y: -119.5}
+        - {x: 322, y: -64.5}
+        - {x: 322, y: -30.5}
+        - {x: 240, y: 53.5}
+        - {x: 205, y: 34.5}
+        - {x: 201, y: 29.5}
+        - {x: 192, y: 18.5}
+        - {x: 202, y: 32.5}
+        - {x: 210, y: 58.5}
+        - {x: 205, y: 100.5}
+        - {x: 198, y: 96.5}
+        - {x: 153, y: 71.5}
+        - {x: 149, y: 66.5}
+        - {x: 149, y: 62.5}
+        - {x: 154, y: 55.5}
+        - {x: 106, y: 101.5}
+        - {x: 15, y: 119.5}
+        - {x: -20, y: 119.5}
+        - {x: -113, y: 99.5}
+        - {x: -151, y: 48.5}
+        - {x: -151, y: 39.5}
+        - {x: -150, y: 59.5}
+        - {x: -188, y: 84.5}
+        - {x: -204, y: 89.5}
+        - {x: -207, y: 65.5}
+        - {x: -203, y: 30.5}
+        - {x: -202, y: 25.5}
+        - {x: -200, y: 23.5}
+        - {x: -196, y: 21.5}
+        - {x: -190, y: 15.5}
+        - {x: -205, y: 26.5}
+        - {x: -204, y: 31.5}
+        - {x: -212, y: 41.5}
+        - {x: -246, y: 41.5}
+        - {x: -322, y: -37.5}
+        - {x: -322, y: -105.5}
+        - {x: -306, y: -119.5}
+        - {x: -187, y: -119.5}
+        - {x: -165, y: -108.5}
+        - {x: -162, y: -107.5}
+        - {x: 130, y: -119.5}
+    - name: ScrollDot
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1236
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ScrollDot_white
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1221
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 6, z: 7, w: 7}
+      outline: []
+    - name: Star_Level
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1080
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 13.5}
+        - {x: -5.5, y: 13.5}
+        - {x: -14.5, y: 9.5}
+        - {x: -14.5, y: -5.5}
+        - {x: -10.5, y: -12.5}
+        - {x: -9.5, y: -14.5}
+        - {x: 11.5, y: -14.5}
+        - {x: 14.5, y: -8.5}
+        - {x: 14.5, y: 5.5}
+        - {x: 13.5, y: 6.5}
+    - name: Star_LevelBG
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1043
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 17.5}
+        - {x: -18.5, y: 12.5}
+        - {x: -18.5, y: -17.5}
+        - {x: 16.5, y: -17.5}
+        - {x: 18.5, y: -10.5}
+        - {x: 18.5, y: 13.5}
+        - {x: 9.5, y: 17.5}
+    - name: Star_Result
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1270
+        width: 157
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 64.5}
+        - {x: -10.5, y: 64.5}
+        - {x: -62.5, y: 26.5}
+        - {x: -62.5, y: -32.5}
+        - {x: -59.5, y: -59.5}
+        - {x: 47.5, y: -59.5}
+        - {x: 63.5, y: 3.5}
+        - {x: 63.5, y: 26.5}
+    - name: Star_ResultBG
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1117
+        width: 157
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 75.5}
+        - {x: -5.5, y: 75.5}
+        - {x: -8.5, y: 71.5}
+        - {x: -77.5, y: 26.5}
+        - {x: -78.5, y: 23.5}
+        - {x: -78.5, y: -15.5}
+        - {x: -70.5, y: -75.5}
+        - {x: 57.5, y: -75.5}
+        - {x: 78.5, y: 7.5}
+        - {x: 78.5, y: 24.5}
+    - name: StoreIcon_BG
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 479
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 20, y: 20, z: 20, w: 20}
+      outline:
+      - - {x: 25, y: 17}
+        - {x: 20, y: 24}
+        - {x: 16, y: 25}
+        - {x: -16, y: 25}
+        - {x: -25, y: 21}
+        - {x: -25, y: -19}
+        - {x: -17, y: -25}
+        - {x: 16, y: -25}
+        - {x: 19, y: -23}
+        - {x: 23, y: -19}
+        - {x: 25, y: -16}
+    - name: StoreItem_BG
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1097
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 26, y: 29, z: 26, w: 26}
+      outline:
+      - - {x: -25, y: 31.5}
+        - {x: -30, y: 21.5}
+        - {x: -30, y: -20.5}
+        - {x: -23, y: -31.5}
+        - {x: 21, y: -31.5}
+        - {x: 30, y: -26.5}
+        - {x: 30, y: 27.5}
+        - {x: 23, y: 31.5}
+    - name: Tab_01
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 587
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 15, y: 18, z: 15, w: 21}
+      outline:
+      - - {x: -21, y: 27}
+        - {x: -25, y: 22}
+        - {x: -25, y: -24}
+        - {x: -24, y: -27}
+        - {x: 25, y: -27}
+        - {x: 25, y: 22}
+        - {x: 20, y: 27}
+    - name: Tab_02
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 531
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 15, y: 18, z: 15, w: 21}
+      outline:
+      - - {x: -21, y: 27}
+        - {x: -25, y: 22}
+        - {x: -25, y: -24}
+        - {x: -24, y: -27}
+        - {x: 25, y: -27}
+        - {x: 25, y: 22}
+        - {x: 20, y: 27}
+    - name: Text_Label
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 2013
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 16, z: 12, w: 12}
+      outline: []
+    - name: Upgrade_Bar_BG
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 427
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 12, z: 12, w: 12}
+      outline:
+      - - {x: -23, y: 25}
+        - {x: -25, y: 22}
+        - {x: -25, y: -21}
+        - {x: -21, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: 25}
+    - name: Upgrade_Dot
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 985
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 2}
+      outline: []
+    - name: Upgrade_blue
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1217
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 2}
+      outline: []
+    - name: Upgrade_cyan
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1183
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 2}
+      outline: []
+    - name: Upgrade_green
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1149
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 2}
+      outline: []
+    - name: Upgrade_grey
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1115
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 2}
+      outline: []
+    - name: Upgrade_orange
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1081
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 2}
+      outline: []
+    - name: Upgrade_pink
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1047
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 2}
+      outline: []
+    - name: Upgrade_purple
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1013
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 2}
+      outline: []
+    - name: Upgrade_red
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 979
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 2}
+      outline: []
+    - name: Upgrade_slot
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1969
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 6, z: 6, w: 6}
+      outline: []
+    - name: Upgrade_slot_square
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1801
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 6, z: 6, w: 6}
+      outline: []
+    - name: Window_BG_1
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1823
+        width: 340
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 155, y: 72, z: 155, w: 128}
+      outline:
+      - - {x: 170, y: 6}
+        - {x: 164, y: 24}
+        - {x: 143, y: 42}
+        - {x: 58, y: 88}
+        - {x: 44, y: 112}
+        - {x: -41, y: 112}
+        - {x: -42, y: 111}
+        - {x: -59, y: 87}
+        - {x: -55, y: 49}
+        - {x: -121, y: 49}
+        - {x: -129, y: 47}
+        - {x: -135, y: 46}
+        - {x: -146, y: 39}
+        - {x: -160, y: 29}
+        - {x: -170, y: 11}
+        - {x: -170, y: -72}
+        - {x: -163, y: -91}
+        - {x: -137, y: -111}
+        - {x: -131, y: -112}
+        - {x: 130, y: -112}
+        - {x: 148, y: -105}
+        - {x: 164, y: -86}
+        - {x: 170, y: -73}
+    - name: Window_BG_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1251
+        width: 164
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 64, y: 70, z: 64, w: 64}
+      outline:
+      - - {x: 65, y: 85}
+        - {x: -59, y: 85}
+        - {x: -81, y: 67}
+        - {x: -82, y: 56}
+        - {x: -82, y: -53}
+        - {x: -78, y: -60}
+        - {x: -48, y: -85}
+        - {x: 49, y: -85}
+        - {x: 82, y: -60}
+        - {x: 82, y: 60}
+        - {x: 72, y: 84}
+    - name: Window_Field_01
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 845
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 40, y: 40, z: 40, w: 40}
+      outline:
+      - - {x: -49, y: 50}
+        - {x: -50, y: 45}
+        - {x: -50, y: -45}
+        - {x: -45, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+    - name: Window_Field_02
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1233
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 80, y: 80, z: 80, w: 80}
+      outline:
+      - - {x: 57, y: 94}
+        - {x: -61, y: 94}
+        - {x: -69, y: 86}
+        - {x: -94, y: 52}
+        - {x: -94, y: -45}
+        - {x: -82, y: -75}
+        - {x: -51, y: -94}
+        - {x: 49, y: -94}
+        - {x: 82, y: -75}
+        - {x: 94, y: -48}
+        - {x: 94, y: 87}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,10 +2,13 @@ version: 2
 importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Portal Puzzle Assets/Sprites/UI Sprite/Mobile Cartoon Sprites/UI Sprite Sheet.tpsheet
 - Assets/Portal Puzzle Assets/Sprites/Unit Sprite/Unit Image sprite sheet.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Portal Puzzle Assets/Sprites/UI Sprite/Mobile Cartoon Sprites/UI Sprite Sheet.png
 - Assets/Portal Puzzle Assets/Sprites/Unit Sprite/Unit Image sprite sheet.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
 - 
