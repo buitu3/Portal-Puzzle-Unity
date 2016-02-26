@@ -34,4 +34,13 @@ public class SoundController : MonoBehaviour {
         sfxSource.PlayOneShot(clip);
     }
 	
+    public void changeSfxVolume(float newVolume)
+    {
+        SoundController.Instance.sfxSource.volume = newVolume;
+    }
+
+    public void changeMusicVolume(float newVolulme)
+    {
+        SoundController.Instance.musicSource.volume = newVolulme;
+    }
 }
