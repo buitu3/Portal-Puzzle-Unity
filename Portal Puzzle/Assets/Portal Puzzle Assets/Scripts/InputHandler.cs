@@ -14,6 +14,8 @@ public class InputHandler : MonoBehaviour,IPointerDownHandler,IPointerUpHandler 
 
     public static InputHandler Instance;
 
+    public AudioClip _unitMovingSound;                          // Unit dropping sound
+
     public float _shiftingSpeed;                            // Units moving speed
 
     public GameObject _unitHighLight;                       // Units highlighters
@@ -36,10 +38,6 @@ public class InputHandler : MonoBehaviour,IPointerDownHandler,IPointerUpHandler 
     public bool _isMoving = false;
     private bool _UnitSelected = false;
     private Transform _unitsHolder;
-
-    private Vector2 _pointerOriginPos;
-    private Vector2 _pointerCurrentPos;
-    private Vector2 _direction;
 
     int counter = 0;
 
@@ -68,41 +66,6 @@ public class InputHandler : MonoBehaviour,IPointerDownHandler,IPointerUpHandler 
         StartCoroutine(controlMovingUnits());
     }
 
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            if (GameStateController.currentState == GameStateController.gameState.idle && _unit != null)
-            {
-                StartCoroutine(shiftRight(_unit, 1));
-            }            
-        }
-        
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            if (GameStateController.currentState == GameStateController.gameState.idle && _unit != null)
-            {
-                StartCoroutine(shiftLeft(_unit, 1));
-            }
-        }
-
-        if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            if (GameStateController.currentState == GameStateController.gameState.idle && _unit != null)
-            {
-                StartCoroutine(shiftUp(_unit, 1));
-            }
-        }
-        
-        if (Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            if (GameStateController.currentState == GameStateController.gameState.idle && _unit != null)
-            {
-                StartCoroutine(shiftDown(_unit, 1));
-            }
-        }
-    }
-
     public void OnPointerDown(PointerEventData data)
     {
         if (GameStateController.currentState == GameStateController.gameState.idle)
@@ -122,59 +85,8 @@ public class InputHandler : MonoBehaviour,IPointerDownHandler,IPointerUpHandler 
                     + _unit.GetComponent<UnitInfo>()._value);
                 // Highlight the selected Unit
                 highLightUnit(_unit);
-            }       
-        }
-        _pointerOriginPos = data.position;
+            }               }
     }
-
-    //public void OnDrag(PointerEventData data)
-    //{
-    //    if (_unit != null)
-    //    {
-    //        Vector2 pointerPosition = Camera.main.ScreenToWorldPoint(data.position);
-    //        //_unit.transform.position = new Vector3(pointerPosition.x - puzzleGen._unitWidth/2, 
-    //        //                                    _unit.transform.position.y,
-    //        //                                    _unit.transform.position.z);
-    //        if (pointerPosition.x > _unit.transform.position.x + puzzleGen._unitWidth
-    //            && pointerPosition.y > _unit.transform.position.y
-    //            && pointerPosition.y < _unit.transform.position.y + puzzleGen._unitHeight
-    //            && GameStateController.currentState == GameStateController.gameState.idle
-    //            && _unit.GetComponent<UnitInfo>()._XIndex < puzzleGen._columns - 1)
-    //        {
-    //            int shiftingSpeedMultiplier = (int)(Mathf.Abs(pointerPosition.x - _unit.transform.position.x) / puzzleGen._unitWidth);
-    //            //print(shiftingSpeedMultiplier);
-    //            StartCoroutine(shiftRight(_unit, shiftingSpeedMultiplier));
-    //        }
-    //        else if (pointerPosition.x < _unit.transform.position.x
-    //            && pointerPosition.y > _unit.transform.position.y
-    //            && pointerPosition.y < _unit.transform.position.y + puzzleGen._unitHeight
-    //            && GameStateController.currentState == GameStateController.gameState.idle
-    //            && _unit.GetComponent<UnitInfo>()._XIndex > 0)
-    //        {
-    //            StartCoroutine(shiftLeft(_unit));
-    //        }
-    //        else if (pointerPosition.y > _unit.transform.position.y + puzzleGen._unitHeight
-    //            && pointerPosition.x > _unit.transform.position.x
-    //            && pointerPosition.x < _unit.transform.position.x + puzzleGen._unitWidth
-    //            && GameStateController.currentState == GameStateController.gameState.idle
-    //            && _unit.GetComponent<UnitInfo>()._YIndex < puzzleGen._rows - 1)
-    //        {
-    //            StartCoroutine(shiftUp(_unit));
-    //        }
-    //        else if (pointerPosition.y < _unit.transform.position.y
-    //            && pointerPosition.x > _unit.transform.position.x
-    //            && pointerPosition.x < _unit.transform.position.x + puzzleGen._unitWidth
-    //            && GameStateController.currentState == GameStateController.gameState.idle
-    //            && _unit.GetComponent<UnitInfo>()._YIndex > 0)
-    //        {
-    //            StartCoroutine(shiftDown(_unit));
-    //        }
-    //        //else
-    //        //{
-    //        //    print("whoops!");
-    //        //}
-    //    }
-    //}
 
     public void OnPointerUp(PointerEventData data)
     {
@@ -214,6 +126,7 @@ public class InputHandler : MonoBehaviour,IPointerDownHandler,IPointerUpHandler 
                     int shiftingSpeedMultiplier = (int)(Mathf.Abs(pointerPosition.x - _unit.transform.position.x) / puzzleGen._unitWidth);
                     //print(shiftingSpeedMultiplier);
                     StartCoroutine(shiftRight(_unit, shiftingSpeedMultiplier));
+                    SoundController.Instance.playSingleClip(_unitMovingSound);
                 }
                 else if (pointerPosition.x < _unit.transform.position.x
                     && pointerPosition.y > _unit.transform.position.y
@@ -223,6 +136,7 @@ public class InputHandler : MonoBehaviour,IPointerDownHandler,IPointerUpHandler 
                 {
                     int shiftingSpeedMultiplier = (int)((Mathf.Abs(pointerPosition.x - _unit.transform.position.x) + 1) / puzzleGen._unitWidth);
                     StartCoroutine(shiftLeft(_unit, shiftingSpeedMultiplier));
+                    SoundController.Instance.playSingleClip(_unitMovingSound);
                 }
                 else if (pointerPosition.y > _unit.transform.position.y + puzzleGen._unitHeight
                     && pointerPosition.x > _unit.transform.position.x
@@ -232,6 +146,7 @@ public class InputHandler : MonoBehaviour,IPointerDownHandler,IPointerUpHandler 
                 {
                     int shiftingSpeedMultiplier = (int)(Mathf.Abs(pointerPosition.y - _unit.transform.position.y) / puzzleGen._unitHeight);
                     StartCoroutine(shiftUp(_unit, shiftingSpeedMultiplier));
+                    SoundController.Instance.playSingleClip(_unitMovingSound);
                 }
                 else if (pointerPosition.y < _unit.transform.position.y
                     && pointerPosition.x > _unit.transform.position.x
@@ -241,6 +156,7 @@ public class InputHandler : MonoBehaviour,IPointerDownHandler,IPointerUpHandler 
                 {
                     int shiftingSpeedMultiplier = (int)((Mathf.Abs(pointerPosition.y - _unit.transform.position.y) + 1)/ puzzleGen._unitHeight);
                     StartCoroutine(shiftDown(_unit, shiftingSpeedMultiplier));
+                    SoundController.Instance.playSingleClip(_unitMovingSound);
                 }
                 //else
                 //{

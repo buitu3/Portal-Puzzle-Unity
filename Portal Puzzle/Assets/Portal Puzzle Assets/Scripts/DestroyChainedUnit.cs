@@ -57,6 +57,8 @@ public class DestroyChainedUnit : MonoBehaviour {
     private GameStateController gameStateController;
     //private InputHandler inputHandler;
 
+    public AudioClip _unitDestroySound;                          // Unit dropping sound
+
     private bool _noChainedUnit;
 
     //==============================================
@@ -73,6 +75,7 @@ public class DestroyChainedUnit : MonoBehaviour {
         puzzleGen = GeneratingPuzzle.Instance;
         gameStateController = GameStateController.Instance;
         //inputHandler = InputHandler.Instance;
+
         scanUnitARR = new ScanUnit[puzzleGen._columns, puzzleGen._rows];
         _unitCounter = 0;
         _unitTypeCheckContainer = new List<int>();
@@ -194,6 +197,7 @@ public class DestroyChainedUnit : MonoBehaviour {
 
         //yield return (StartCoroutine(playDestroyUnitsAnimation(shrinkUnitsList)));
         StartCoroutine(playDestroyUnitsAnimation(shrinkUnitsList));
+        SoundController.Instance.playSingleClip(_unitDestroySound);
 
         for (int YIndex = 0; YIndex < puzzleGen._rows; YIndex++)
         {

@@ -42,7 +42,9 @@ public class GeneratingPuzzle : MonoBehaviour {
     public GameObject[] _unitPrefabsContainer;                 // List contain Units Prefab
     public TextAsset _levelsInfo;                              // Text file store all levels infomation
 
-    public GameObject _coverForeGround;                        // Puzzle's covering
+    public GameObject _coverForeground;                        // Puzzle's covering
+    public Slider _sfxSlider;
+    public Slider _musicSlider;
     public GameObject _portalGatePrefab;                       // Puzzle border prefab
     public GameObject _portalCornerPrefab;                     // Puzzle border corner prefab
     [HideInInspector]
@@ -95,6 +97,7 @@ public class GeneratingPuzzle : MonoBehaviour {
     {
         Instance = this;
         
+        // Get current level infomation from levelsInfo text file
         string levelsInfoString = _levelsInfo.text;
         JSONObject levelsInfoJSON = new JSONObject(levelsInfoString);
         JSONObject puzzleInfoJSON = levelsInfoJSON.GetField(MadLevel.arguments);
@@ -106,6 +109,10 @@ public class GeneratingPuzzle : MonoBehaviour {
         _1starPoint = (int)puzzleInfoJSON.GetField("1 star point").f;
         _2starPoint = (int)puzzleInfoJSON.GetField("2 star point").f;
         _3starPoint = (int)puzzleInfoJSON.GetField("3 star point").f;
+
+        // Set SFX and Music silder value
+        _sfxSlider.value = SoundController.Instance.sfxSource.volume;
+        _musicSlider.value = SoundController.Instance.musicSource.volume;
 
     }
 
@@ -136,7 +143,7 @@ public class GeneratingPuzzle : MonoBehaviour {
 
         // Scale foreground covering to fit current puzzle
         float fillSize = cameraHeight - (_unitHeight * (_rows + 1) + _YOffset);
-        _coverForeGround.GetComponent<Image>().fillAmount = (fillSize / cameraHeight);
+        _coverForeground.GetComponent<Image>().fillAmount = (fillSize / cameraHeight);
 
         // Generating value matrix
         _valueARR = generateValueMatrix();

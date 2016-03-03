@@ -29,8 +29,14 @@ public class UnitImageController : MonoBehaviour {
                 unitSprite.sprite = Sprite.Create(originalTexture, new Rect(0, 0, originalTexture.width, originalTexture.height), new Vector2(0, 0), pixelsPerUnit);
             }
         }
-        
-        if (Instance != null && Instance != this)
+
+        //if (Instance != null && Instance != this)
+        //{
+        //    Destroy(gameObject);
+        //    //print("destroy");
+        //}
+
+        else if (Instance != this)
         {
             Destroy(gameObject);
             //print("destroy");
